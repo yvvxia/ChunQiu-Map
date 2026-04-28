@@ -1,4 +1,4 @@
-import { useCallback, useMemo } from 'react'
+import { useCallback, useMemo, useRef, useEffect } from 'react'
 import { ALL_LU_YEARS } from '@/data/dataService'
 import { useAppStore } from '@/store/useAppStore'
 
@@ -10,6 +10,7 @@ import { useAppStore } from '@/store/useAppStore'
 export function MobileTimeline() {
   const currentLuYearId = useAppStore(s => s.currentLuYearId)
   const setLuYear = useAppStore(s => s.setLuYear)
+  const sliderRef = useRef<HTMLInputElement>(null)
 
   const years = ALL_LU_YEARS
   const currentIndex = useMemo(
@@ -26,6 +27,11 @@ export function MobileTimeline() {
     [years, setLuYear]
   )
 
+  useEffect(() => {
+    // Firefox 支持 input[orient=vertical]，通过 DOM 属性设置避免 TS JSX 类型报错
+    sliderRef.current?.setAttribute('orient', 'vertical')
+  }, [])
+
   return (
     <>
       {/* 年份顶部徽章 */}
@@ -39,9 +45,9 @@ export function MobileTimeline() {
       {/* 右侧竖向滑轨 */}
       <div className="mobile-timeline-wrap">
         <input
+          ref={sliderRef}
           type="range"
           className="mobile-timeline-input"
-          orient="vertical"
           min={0}
           max={years.length - 1}
           value={currentIndex < 0 ? 0 : currentIndex}
