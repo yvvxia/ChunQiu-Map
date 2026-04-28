@@ -1,0 +1,226 @@
+[
+  {
+    "id": "yin-1",
+    "luLabel": "隐公元年",
+    "luDuke": "隐公",
+    "luYearNum": 1,
+    "zhouLabel": "周平王四十九年",
+    "bce": -722
+  },
+  {
+    "id": "yin-2",
+    "luLabel": "隐公二年",
+    "luDuke": "隐公",
+    "luYearNum": 2,
+    "zhouLabel": "周平王五十年",
+    "bce": -721
+  },
+  {
+    "id": "yin-3",
+    "luLabel": "隐公三年",
+    "luDuke": "隐公",
+    "luYearNum": 3,
+    "zhouLabel": "周平王五十一年",
+    "bce": -720
+  },
+  {
+    "id": "yin-4",
+    "luLabel": "隐公四年",
+    "luDuke": "隐公",
+    "luYearNum": 4,
+    "zhouLabel": "周平王五十二年",
+    "bce": -719
+  },
+  {
+    "id": "yin-5",
+    "luLabel": "隐公五年",
+    "luDuke": "隐公",
+    "luYearNum": 5,
+    "zhouLabel": "周平王五十三年",
+    "bce": -718
+  },
+  {
+    "id": "yin-6",
+    "luLabel": "隐公六年",
+    "luDuke": "隐公",
+    "luYearNum": 6,
+    "zhouLabel": "周平王五十四年",
+    "bce": -717
+  },
+  {
+    "id": "yin-7",
+    "luLabel": "隐公七年",
+    "luDuke": "隐公",
+    "luYearNum": 7,
+    "zhouLabel": "周平王五十五年",
+    "bce": -716
+  },
+  {
+    "id": "yin-8",
+    "luLabel": "隐公八年",
+    "luDuke": "隐公",
+    "luYearNum": 8,
+    "zhouLabel": "周平王五十六年",
+    "bce": -715
+  },
+  {
+    "id": "yin-9",
+    "luLabel": "隐公九年",
+    "luDuke": "隐公",
+    "luYearNum": 9,
+    "zhouLabel": "周平王五十七年",
+    "bce": -714
+  },
+  {
+    "id": "yin-10",
+    "luLabel": "隐公十年",
+    "luDuke": "隐公",
+    "luYearNum": 10,
+    "zhouLabel": "周平王五十八年",
+    "bce": -713
+  },
+  {
+    "id": "yin-11",
+    "luLabel": "隐公十一年",
+    "luDuke": "隐公",
+    "luYearNum": 11,
+    "zhouLabel": "周桓王元年",
+    "bce": -712
+  },
+  {
+    "id": "huan-1",
+    "luLabel": "桓公元年",
+    "luDuke": "桓公",
+    "luYearNum": 1,
+    "zhouLabel": "周桓王二年",
+    "bce": -711
+  },
+  {
+    "id": "huan-2",
+    "luLabel": "桓公二年",
+    "luDuke": "桓公",
+    "luYearNum": 2,
+    "zhouLabel": "周桓王三年",
+    "bce": -710
+  },
+  {
+    "id": "huan-3",
+    "luLabel": "桓公三年",
+    "luDuke": "桓公",
+    "luYearNum": 3,
+    "zhouLabel": "周桓王四年",
+    "bce": -709
+  },
+  {
+    "id": "huan-4",
+    "luLabel": "桓公四年",
+    "luDuke": "桓公",
+    "luYearNum": 4,
+    "zhouLabel": "周桓王五年",
+    "bce": -708
+  },
+  {
+    "id": "huan-5",
+    "luLabel": "桓公五年",
+    "luDuke": "桓公",
+    "luYearNum": 5,
+    "zhouLabel": "周桓王六年",
+    "bce": -707
+  },
+  {
+    "id": "huan-6",
+    "luLabel": "桓公六年",
+    "luDuke": "桓公",
+    "luYearNum": 6,
+    "zhouLabel": "周桓王七年",
+    "bce": -706
+  },
+  {
+    "id": "zhuang-1",
+    "luLabel": "庄公元年",
+    "luDuke": "庄公",
+    "luYearNum": 1,
+    "zhouLabel": "周庄王元年",
+    "bce": -693
+  },
+  {
+    "id": "min-1",
+    "luLabel": "闵公元年",
+    "luDuke": "闵公",
+    "luYearNum": 1,
+    "zhouLabel": "周惠王十七年",
+    "bce": -661
+  },
+  {
+    "id": "xi-1",
+    "luLabel": "僖公元年",
+    "luDuke": "僖公",
+    "luYearNum": 1,
+    "zhouLabel": "周惠王十九年",
+    "bce": -659
+  },
+  {
+    "id": "xi-28",
+    "luLabel": "僖公二十八年",
+    "luDuke": "僖公",
+    "luYearNum": 28,
+    "zhouLabel": "周襄王十六年",
+    "bce": -632
+  },
+  {
+    "id": "xuan-1",
+    "luLabel": "宣公元年",
+    "luDuke": "宣公",
+    "luYearNum": 1,
+    "zhouLabel": "周匡王六年",
+    "bce": -608
+  },
+  {
+    "id": "cheng-1",
+    "luLabel": "成公元年",
+    "luDuke": "成公",
+    "luYearNum": 1,
+    "zhouLabel": "周定王九年",
+    "bce": -590
+  },
+  {
+    "id": "xiang-1",
+    "luLabel": "襄公元年",
+    "luDuke": "襄公",
+    "luYearNum": 1,
+    "zhouLabel": "周灵王元年",
+    "bce": -572
+  },
+  {
+    "id": "zhao-1",
+    "luLabel": "昭公元年",
+    "luDuke": "昭公",
+    "luYearNum": 1,
+    "zhouLabel": "周景王六年",
+    "bce": -541
+  },
+  {
+    "id": "ding-1",
+    "luLabel": "定公元年",
+    "luDuke": "定公",
+    "luYearNum": 1,
+    "zhouLabel": "周敬王十四年",
+    "bce": -509
+  },
+  {
+    "id": "ai-1",
+    "luLabel": "哀公元年",
+    "luDuke": "哀公",
+    "luYearNum": 1,
+    "zhouLabel": "周敬王二十五年",
+    "bce": -494
+  },
+  {
+    "id": "ai-14",
+    "luLabel": "哀公十四年",
+    "luDuke": "哀公",
+    "luYearNum": 14,
+    "zhouLabel": "周敬王三十八年",
+    "bce": -481
+  }
+]

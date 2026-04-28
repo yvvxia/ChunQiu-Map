@@ -1,0 +1,5978 @@
+[
+  {
+    "id": "ev-yin1-1",
+    "luYearId": "yin-1",
+    "jingText": "元年春王正月。",
+    "zuoComment": "元年春，王周正月。不书即位，摄也。",
+    "category": "ritual",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin1-2",
+    "luYearId": "yin-1",
+    "jingText": "三月，公及邾仪父盟于蔑。",
+    "zuoComment": "公及邾仪父盟于蔑，邾子克也。未王命，故不书爵，曰『仪父』，贵之也。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "song"
+    ],
+    "placeIds": [
+      "mie"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin1-3",
+    "luYearId": "yin-1",
+    "jingText": "夏五月，郑伯克段于鄢。",
+    "zuoComment": "初，郑武公娶于申，曰武姜，生庄公及共叔段……遂置姜氏于城颍，而誓之曰……",
+    "category": "battle",
+    "stateIds": [
+      "zheng"
+    ],
+    "placeIds": [
+      "yanling"
+    ],
+    "personIds": [
+      "zheng-zhuang",
+      "zheng-duanshu"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin1-4",
+    "luYearId": "yin-1",
+    "jingText": "秋七月，天王使宰咺来归惠公仲子之賵。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zhou"
+    ],
+    "placeIds": [
+      "qufu",
+      "wangcheng"
+    ],
+    "personIds": [
+      "lu-yin",
+      "zhou-pingwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin1-5",
+    "luYearId": "yin-1",
+    "jingText": "九月，及宋人盟于宿。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "song"
+    ],
+    "placeIds": [
+      "su"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin2-1",
+    "luYearId": "yin-2",
+    "jingText": "二年春，公会戎于潜。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qian"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin2-2",
+    "luYearId": "yin-2",
+    "jingText": "夏五月，莒人入向。",
+    "category": "battle",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "xiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin3-1",
+    "luYearId": "yin-3",
+    "jingText": "三年春王二月，己巳，日有食之。",
+    "category": "disaster",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin3-2",
+    "luYearId": "yin-3",
+    "jingText": "三月庚戌，天王崩。",
+    "category": "succession",
+    "stateIds": [
+      "zhou"
+    ],
+    "placeIds": [
+      "wangcheng"
+    ],
+    "personIds": [
+      "zhou-pingwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin3-3",
+    "luYearId": "yin-3",
+    "jingText": "夏四月辛卯，君氏卒。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin3-4",
+    "luYearId": "yin-3",
+    "jingText": "秋，武氏子来求赙。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zhou"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin4-1",
+    "luYearId": "yin-4",
+    "jingText": "四年春王二月，莒人伐杞，取牟娄。",
+    "category": "battle",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin4-2",
+    "luYearId": "yin-4",
+    "jingText": "翚帅师会宋公、陈侯、蔡人、卫人伐郑。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "song",
+      "chen",
+      "cai",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "zheng-zhuang",
+      "wei-gongshu"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin4-3",
+    "luYearId": "yin-4",
+    "jingText": "卫州吁弑其君完。",
+    "category": "succession",
+    "stateIds": [
+      "wei"
+    ],
+    "placeIds": [
+      "chengqiu"
+    ],
+    "personIds": [
+      "wei-gongshu"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin5-1",
+    "luYearId": "yin-5",
+    "jingText": "五年春，公矢鱼于棠。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "tang"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公五年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin5-2",
+    "luYearId": "yin-5",
+    "jingText": "邾人、郑人伐宋。",
+    "category": "battle",
+    "stateIds": [
+      "zheng",
+      "song"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公五年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin6-1",
+    "luYearId": "yin-6",
+    "jingText": "六年春，郑伯朝于鲁。",
+    "zuoComment": "隐公与郑庄公往来频仍，鲁郑关系一度转密，为后续伐宋诸事铺垫。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "qufu",
+      "xinzheng"
+    ],
+    "personIds": [
+      "lu-yin",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公六年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-yin6-2",
+    "luYearId": "yin-6",
+    "jingText": "夏，郑伯伐卫。",
+    "category": "battle",
+    "stateIds": [
+      "zheng",
+      "wei"
+    ],
+    "placeIds": [
+      "xinzheng",
+      "chengqiu"
+    ],
+    "personIds": [
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin6-3",
+    "luYearId": "yin-6",
+    "jingText": "冬，宋人取长葛。",
+    "zuoComment": "长葛为郑要地，宋郑争衡加剧。",
+    "category": "battle",
+    "stateIds": [
+      "song",
+      "zheng"
+    ],
+    "placeIds": [
+      "changge",
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin7-1",
+    "luYearId": "yin-7",
+    "jingText": "七年春，王使凡伯来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "zhou",
+      "lu"
+    ],
+    "placeIds": [
+      "wangcheng",
+      "qufu"
+    ],
+    "personIds": [
+      "lu-yin",
+      "zhou-huanwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin7-2",
+    "luYearId": "yin-7",
+    "jingText": "戎伐凡伯于楚丘。",
+    "zuoComment": "《左传》载凡伯受戎扰，体现周室控制力衰弱。",
+    "category": "battle",
+    "stateIds": [
+      "zhou",
+      "wei"
+    ],
+    "placeIds": [
+      "zhongqiu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》隐公七年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-yin8-1",
+    "luYearId": "yin-8",
+    "jingText": "八年春，宋公、卫侯遇于垂。",
+    "category": "assembly",
+    "stateIds": [
+      "song",
+      "wei"
+    ],
+    "placeIds": [
+      "chui"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公八年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-yin8-2",
+    "luYearId": "yin-8",
+    "jingText": "夏，郑伯使宛来归祊。",
+    "zuoComment": "祊田归鲁，为鲁郑利益交换之关键条目。",
+    "category": "diplomatic",
+    "stateIds": [
+      "zheng",
+      "lu"
+    ],
+    "placeIds": [
+      "xinzheng",
+      "fang"
+    ],
+    "personIds": [
+      "zheng-zhuang",
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin8-3",
+    "luYearId": "yin-8",
+    "jingText": "庚寅，我入祊。",
+    "category": "other",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "fang"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin9-1",
+    "luYearId": "yin-9",
+    "jingText": "九年春，天王使南季来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "zhou",
+      "lu"
+    ],
+    "placeIds": [
+      "wangcheng",
+      "qufu"
+    ],
+    "personIds": [
+      "lu-yin",
+      "zhou-huanwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin9-2",
+    "luYearId": "yin-9",
+    "jingText": "宋公、卫侯会于防。",
+    "category": "assembly",
+    "stateIds": [
+      "song",
+      "wei",
+      "lu"
+    ],
+    "placeIds": [
+      "fang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公九年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-yin10-1",
+    "luYearId": "yin-10",
+    "jingText": "十年春，王二月，公会齐侯、郑伯于中丘。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi",
+      "zheng"
+    ],
+    "placeIds": [
+      "zhongqiu"
+    ],
+    "personIds": [
+      "lu-yin",
+      "qi-xi",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin10-2",
+    "luYearId": "yin-10",
+    "jingText": "秋，取郑师于防。",
+    "zuoComment": "鲁郑关系由和转疑，《左传》详载其辞令与执俘争议。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "fang",
+      "xinzheng"
+    ],
+    "personIds": [
+      "lu-yin",
+      "zheng-zhuang",
+      "lu-hui"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin10-3",
+    "luYearId": "yin-10",
+    "jingText": "冬，宋人、蔡人、卫人伐戴，郑伯伐取之。",
+    "category": "battle",
+    "stateIds": [
+      "song",
+      "cai",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "dai",
+      "xinzheng"
+    ],
+    "personIds": [
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin11-1",
+    "luYearId": "yin-11",
+    "jingText": "十一年春，滕侯、薛侯来朝。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "song"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-yin"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公十一年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-yin11-2",
+    "luYearId": "yin-11",
+    "jingText": "秋七月壬午，公及齐侯、郑伯入许。",
+    "zuoComment": "入许为隐公晚年大事，齐郑鲁联合施压中原小国秩序。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "qi",
+      "zheng"
+    ],
+    "placeIds": [
+      "xu",
+      "xinzheng",
+      "linzi"
+    ],
+    "personIds": [
+      "lu-yin",
+      "qi-xi",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公十一年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-yin11-3",
+    "luYearId": "yin-11",
+    "jingText": "冬，公薨。",
+    "zuoComment": "《左传》载羽父使贼弑隐公于寝，开鲁国内政剧变。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-yin",
+      "lu-hui",
+      "lu-huan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》隐公十一年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi28-1",
+    "luYearId": "xi-28",
+    "jingText": "二十有八年春王三月丙午，晋侯入曹，执曹伯，畀宋人。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "cao",
+      "song"
+    ],
+    "placeIds": [
+      "tao"
+    ],
+    "personIds": [
+      "jin-wengong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi28-2",
+    "luYearId": "xi-28",
+    "jingText": "夏四月己巳，晋侯、齐师、宋师、秦师及楚人战于城濮，楚师败绩。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qi",
+      "song",
+      "qin",
+      "chu"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [
+      "jin-wengong",
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十八年城濮之战",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi28-3",
+    "luYearId": "xi-28",
+    "jingText": "天王狩于河阳。",
+    "category": "diplomatic",
+    "stateIds": [
+      "zhou",
+      "jin"
+    ],
+    "placeIds": [
+      "wangcheng"
+    ],
+    "personIds": [
+      "zhou-huanwang",
+      "jin-wengong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-ai1-2",
+    "luYearId": "ai-1",
+    "jingText": "（左传）吴伐越，败越王勾践于夫椒，越栖会稽。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "yue"
+    ],
+    "placeIds": [
+      "fujiao"
+    ],
+    "personIds": [
+      "wu-fucha",
+      "yue-gujian"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》哀公元年",
+    "certainty": "high",
+    "zuoComment": "吴王夫差大败越王勾践于夫椒（太湖），越军残部退守会稽山。此役奠定吴国北上争霸之基础。"
+  },
+  {
+    "id": "ev-ai1-1",
+    "luYearId": "ai-1",
+    "jingText": "元年春王正月，公即位。",
+    "category": "political",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-ai"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-ai2-1",
+    "luYearId": "ai-2",
+    "jingText": "（左传）越王勾践请盟于吴，以臣妾服事吴王。",
+    "category": "diplomatic",
+    "stateIds": [
+      "yue",
+      "wu"
+    ],
+    "placeIds": [
+      "guiji"
+    ],
+    "personIds": [
+      "yue-gujian",
+      "wu-fucha",
+      "fan-li"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》哀公元年续、《史记·越王勾践世家》",
+    "certainty": "high",
+    "zuoComment": "越王勾践被围于会稽，遣文种赂吴太宰伯嚭，求和称臣，吴王夫差接受议和，勾践夫妇入吴为奴，卧薪尝胆之始。范蠡随侍。"
+  },
+  {
+    "id": "ev-ai4-1",
+    "luYearId": "ai-4",
+    "jingText": "公如晋，至河乃复。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-ai"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公四年",
+    "certainty": "medium",
+    "zuoComment": "鲁哀公欲朝晋，至河而返，左传记晋国内乱影响诸侯朝觐。"
+  },
+  {
+    "id": "ev-ai5-1",
+    "luYearId": "ai-5",
+    "jingText": "城成郛。",
+    "category": "political",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公五年",
+    "certainty": "high",
+    "zuoComment": "鲁修筑成邑外城（郛），以应对外部威胁，三桓主导。"
+  },
+  {
+    "id": "ev-ai6-1",
+    "luYearId": "ai-6",
+    "jingText": "楚子轸卒。",
+    "category": "political",
+    "stateIds": [
+      "chu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公六年",
+    "certainty": "high",
+    "zuoComment": "楚昭王（熊轸）率师救陈，卒于军中（城父），楚惠王继立。左传记孔子在陈闻讯，感叹楚王仁义。"
+  },
+  {
+    "id": "ev-ai7-1",
+    "luYearId": "ai-7",
+    "jingText": "公会吴于鄫。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "wu"
+    ],
+    "placeIds": [
+      "zeng"
+    ],
+    "personIds": [
+      "lu-ai",
+      "wu-fucha"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公七年",
+    "certainty": "high",
+    "zuoComment": "吴王夫差征鲁百牢之礼（天子礼），鲁子贡力争礼制，公以五十牢应之。吴以武力为后盾，强迫鲁就范，显吴国霸业之盛。"
+  },
+  {
+    "id": "ev-ai8-1",
+    "luYearId": "ai-8",
+    "jingText": "吴伐陈。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "chen"
+    ],
+    "placeIds": [
+      "wanqiu"
+    ],
+    "personIds": [
+      "wu-fucha"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公八年",
+    "certainty": "high",
+    "zuoComment": "吴进逼陈国，楚救陈，吴楚相持。陈为吴楚争夺之地，楚昭王卒后楚势暂衰，吴得以深入。"
+  },
+  {
+    "id": "ev-ai9-1",
+    "luYearId": "ai-9",
+    "jingText": "齐人来归郓、讙、龟阴之田。",
+    "category": "diplomatic",
+    "stateIds": [
+      "qi",
+      "lu"
+    ],
+    "placeIds": [
+      "yun"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公九年",
+    "certainty": "high",
+    "zuoComment": "齐国归还昔日从鲁夺取的郓、讙、龟阴三地，此系齐鲁两国关系暂时缓和之举，与吴国北上施压齐国有关。",
+    "territoryChanges": [
+      {
+        "fromStateId": "qi",
+        "toStateId": "lu",
+        "placeId": "yun",
+        "note": "齐归还郓地于鲁（哀公九年）",
+        "changeType": "recover"
+      }
+    ]
+  },
+  {
+    "id": "ev-ai10-1",
+    "luYearId": "ai-10",
+    "jingText": "齐国书帅师伐我。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "lu"
+    ],
+    "placeIds": [
+      "lang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公十年",
+    "certainty": "high",
+    "zuoComment": "齐大夫国书率师侵鲁，季孙等组织抵御，鲁借助吴国军事威慑方得喘息。"
+  },
+  {
+    "id": "ev-ai12-1",
+    "luYearId": "ai-12",
+    "jingText": "公会吴于橐皋。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "wu"
+    ],
+    "placeIds": [
+      "jiashan"
+    ],
+    "personIds": [
+      "lu-ai",
+      "wu-fucha"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公十二年",
+    "certainty": "high",
+    "zuoComment": "鲁哀公在橐皋（今安徽巢湖附近）与吴王夫差会盟，吴为黄池之会布局，拉拢诸侯。"
+  },
+  {
+    "id": "ev-ai14-2",
+    "luYearId": "ai-14",
+    "jingText": "（左传）齐陈恒弑其君壬于舒州。",
+    "category": "political",
+    "stateIds": [
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "tian-heng"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》哀公十四年、《春秋》哀公十四年",
+    "certainty": "high",
+    "zuoComment": "哀公十四年，齐大夫陈恒（田成子）弑齐简公，自立为相，田氏代齐之局已定。孔子请哀公讨陈恒，不果，此亦为春秋礼崩乐坏之极点。"
+  },
+  {
+    "id": "ev-ai14-1",
+    "luYearId": "ai-14",
+    "jingText": "十有四年春，西狩获麟。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "daye"
+    ],
+    "personIds": [
+      "kongzi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公十四年（春秋终篇）",
+    "certainty": "high",
+    "zuoComment": "哀公十四年春，西狩于大野（今山东巨野）获麟，孔子感伤以为不祥，《春秋》记至此绝笔。是为孔子见麟绝笔处，春秋时代之终。"
+  },
+  {
+    "id": "ev-huan1-1",
+    "luYearId": "huan-1",
+    "jingText": "元年春王正月，公即位。",
+    "zuoComment": "桓公嗣位，鲁国内政转向以齐郑为重心。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan1-2",
+    "luYearId": "huan-1",
+    "jingText": "春，王使荣叔来锡桓公命。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zhou"
+    ],
+    "placeIds": [
+      "qufu",
+      "wangcheng"
+    ],
+    "personIds": [
+      "lu-huan",
+      "zhou-huanwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan2-1",
+    "luYearId": "huan-2",
+    "jingText": "夏五月，公会郑伯于垂。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "chui",
+      "qufu",
+      "xinzheng"
+    ],
+    "personIds": [
+      "lu-huan",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公二年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan2-2",
+    "luYearId": "huan-2",
+    "jingText": "秋七月，公会齐侯于稷。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi",
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xi"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公二年会齐事",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan3-1",
+    "luYearId": "huan-3",
+    "jingText": "春，齐侯送姜氏于讙。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "qufu",
+      "linzi",
+      "huan"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan4-1",
+    "luYearId": "huan-4",
+    "jingText": "夏，公及郑伯遇于垂。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "chui",
+      "xinzheng",
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公四年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan4-2",
+    "luYearId": "huan-4",
+    "jingText": "秋，郑伯伐宋，入郜、防。",
+    "zuoComment": "郑宋冲突扩大，郑在中原东部推进。",
+    "category": "battle",
+    "stateIds": [
+      "zheng",
+      "song"
+    ],
+    "placeIds": [
+      "fang",
+      "shangqiu",
+      "xinzheng"
+    ],
+    "personIds": [
+      "zheng-zhuang"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公四年",
+    "certainty": "medium",
+    "territoryChanges": [
+      {
+        "placeId": "fang",
+        "fromStateId": "song",
+        "toStateId": "zheng",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-huan5-1",
+    "luYearId": "huan-5",
+    "jingText": "秋，郑伯突出奔蔡。",
+    "category": "succession",
+    "stateIds": [
+      "zheng",
+      "cai"
+    ],
+    "placeIds": [
+      "xinzheng",
+      "shangcai"
+    ],
+    "personIds": [
+      "zheng-zhaogong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公五年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan5-2",
+    "luYearId": "huan-5",
+    "jingText": "冬，郑国纳突于栎。",
+    "category": "succession",
+    "stateIds": [
+      "zheng",
+      "cai"
+    ],
+    "placeIds": [
+      "xinzheng",
+      "shangcai"
+    ],
+    "personIds": [
+      "zheng-zhaogong",
+      "zheng-zhuang"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公五年郑国内乱",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan6-1",
+    "luYearId": "huan-6",
+    "jingText": "九月丁卯，子同生。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan",
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan7-1",
+    "luYearId": "huan-7",
+    "jingText": "春，谷伯、邓侯来朝。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公七年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan8-1",
+    "luYearId": "huan-8",
+    "jingText": "冬十月，雨雪。",
+    "category": "disaster",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公八年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan9-1",
+    "luYearId": "huan-9",
+    "jingText": "春，纪季姜归于京师。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zhou"
+    ],
+    "placeIds": [
+      "qufu",
+      "wangcheng"
+    ],
+    "personIds": [
+      "lu-huan",
+      "zhou-huanwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公九年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan10-1",
+    "luYearId": "huan-10",
+    "jingText": "夏，公会卫侯于桃丘。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "wei"
+    ],
+    "placeIds": [
+      "chengqiu",
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公十年会卫",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan11-1",
+    "luYearId": "huan-11",
+    "jingText": "秋，郑伯伐许。",
+    "category": "battle",
+    "stateIds": [
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng",
+      "xu"
+    ],
+    "personIds": [
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公十一年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "xu",
+        "fromStateId": null,
+        "toStateId": "zheng",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-huan12-1",
+    "luYearId": "huan-12",
+    "jingText": "春，公会齐侯、宋公、陈侯、卫侯、郑伯、许男于稷，以成宋乱。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi",
+      "song",
+      "chen",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "linzi",
+      "qufu",
+      "shangqiu",
+      "wanqiu",
+      "chengqiu",
+      "xinzheng"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xi",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公十二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan13-1",
+    "luYearId": "huan-13",
+    "jingText": "夏，会于曲池。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi",
+      "zheng"
+    ],
+    "placeIds": [
+      "qufu",
+      "linzi",
+      "xinzheng"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xi",
+      "zheng-zhuang"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公十三年会盟",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan14-1",
+    "luYearId": "huan-14",
+    "jingText": "冬，郑伯使其弟语来盟。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "qufu",
+      "xinzheng"
+    ],
+    "personIds": [
+      "lu-huan",
+      "zheng-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公十四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan15-1",
+    "luYearId": "huan-15",
+    "jingText": "郑伯突入于许。",
+    "category": "battle",
+    "stateIds": [
+      "zheng"
+    ],
+    "placeIds": [
+      "xu",
+      "xinzheng"
+    ],
+    "personIds": [
+      "zheng-zhuang"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公十五年",
+    "certainty": "medium",
+    "territoryChanges": [
+      {
+        "placeId": "xu",
+        "fromStateId": null,
+        "toStateId": "zheng",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-huan16-1",
+    "luYearId": "huan-16",
+    "jingText": "夏，公会宋公、卫侯于曹。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "song",
+      "wei",
+      "cao"
+    ],
+    "placeIds": [
+      "tao",
+      "shangqiu",
+      "chengqiu",
+      "qufu"
+    ],
+    "personIds": [
+      "lu-huan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公十六年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-huan17-1",
+    "luYearId": "huan-17",
+    "jingText": "秋，齐人来归郓、讙。",
+    "zuoComment": "齐鲁边地调整，郓、讙归鲁，体现边邑归属变动。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "yun",
+      "huan",
+      "qufu",
+      "linzi"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xi"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》桓公十七年",
+    "certainty": "medium",
+    "territoryChanges": [
+      {
+        "placeId": "yun",
+        "fromStateId": "qi",
+        "toStateId": "lu",
+        "changeType": "recover"
+      },
+      {
+        "placeId": "huan",
+        "fromStateId": "qi",
+        "toStateId": "lu",
+        "changeType": "recover"
+      }
+    ]
+  },
+  {
+    "id": "ev-huan18-1",
+    "luYearId": "huan-18",
+    "jingText": "夏四月，公会齐侯于泺。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "luo"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-huan18-2",
+    "luYearId": "huan-18",
+    "jingText": "秋，公薨于齐。",
+    "zuoComment": "《左传》载桓公十八年齐襄公会鲁于泺，后公遇害于齐。",
+    "category": "succession",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi",
+      "luo"
+    ],
+    "personIds": [
+      "lu-huan",
+      "qi-xiangong",
+      "lu-zhuang",
+      "lu-hui"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》桓公十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang1-1",
+    "luYearId": "zhuang-1",
+    "jingText": "春王正月，公即位。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang10-1",
+    "luYearId": "zhuang-10",
+    "jingText": "夏，公败齐师于长勺。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "changshao"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "cao-gui"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang13-1",
+    "luYearId": "zhuang-13",
+    "jingText": "夏，会于北杏。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "song",
+      "lu",
+      "chen",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "beixing"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang23-1",
+    "luYearId": "zhuang-23",
+    "jingText": "公及齐侯遇于谷。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "qufu",
+      "linzi"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-min1-1",
+    "luYearId": "min-1",
+    "jingText": "冬，齐仲孙来。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "qufu",
+      "linzi"
+    ],
+    "personIds": [
+      "lu-min",
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》闵公元年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi2-1",
+    "luYearId": "xi-2",
+    "jingText": "春王正月，齐侯、宋公、江人、黄人盟于贯。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "song",
+      "jiang",
+      "huang"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "qi-huangong",
+      "song-xianggong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二年",
+    "certainty": "medium",
+    "zuoComment": "齐桓公联合宋、江、黄在贯会盟，以防楚北扩之势，江黄两国为嬴姓小国，素亲齐而抗楚。"
+  },
+  {
+    "id": "ev-xi5-1",
+    "luYearId": "xi-5",
+    "jingText": "公会齐侯、宋公、陈侯、卫侯、郑伯、许男、曹伯于首止。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi",
+      "song",
+      "chen",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公五年",
+    "certainty": "high",
+    "territoryChanges": [],
+    "zuoComment": "齐桓公召诸侯会于首止（今河南睢县附近），共同拥立周太子郑（即后来的周襄王），以稳定王室秩序；楚对此不满，但诸侯霸联进一步巩固。"
+  },
+  {
+    "id": "ev-xi9-1",
+    "luYearId": "xi-9",
+    "jingText": "冬，会于葵丘。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "song",
+      "lu",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "kuiqiu"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi15-1",
+    "luYearId": "xi-15",
+    "jingText": "晋侯及秦伯战于韩，获晋侯。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qin"
+    ],
+    "placeIds": [
+      "hanyuan"
+    ],
+    "personIds": [
+      "jin-huigong",
+      "qin-mugong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公十五年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi24-1",
+    "luYearId": "xi-24",
+    "jingText": "天王出居于郑。",
+    "category": "political",
+    "stateIds": [
+      "zhou",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "jin-wengong",
+      "qin-mugong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十四年",
+    "certainty": "high",
+    "territoryChanges": [],
+    "zuoComment": "周惠王弟王子带勾结狄人作乱，周惠王（一说周襄王）被迫出奔居于郑，晋文公归国同年。此事彰显周室衰微，晋文公后因\"尊王\"出师勤王，平定王室之乱。"
+  },
+  {
+    "id": "ev-wen2-1",
+    "luYearId": "wen-2",
+    "jingText": "晋侯及秦师战于彭衙，秦师败绩。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qin"
+    ],
+    "placeIds": [
+      "pengya"
+    ],
+    "personIds": [
+      "jin-xianggong",
+      "qin-mugong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公二年",
+    "certainty": "high",
+    "zuoComment": "秦以令狐之役故来战，此战为秦败（对晋而言为胜秦之追述，经称秦师败绩）。"
+  },
+  {
+    "id": "ev-wen7-1",
+    "luYearId": "wen-7",
+    "jingText": "宋人弑其君杵臼。",
+    "category": "succession",
+    "stateIds": [
+      "song"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [
+      "song-zhaogong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen15-1",
+    "luYearId": "wen-15",
+    "jingText": "晋侯会诸侯于扈。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "chen",
+      "zheng"
+    ],
+    "placeIds": [
+      "hu"
+    ],
+    "personIds": [
+      "jin-linggong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xuan2-1",
+    "luYearId": "xuan-2",
+    "jingText": "晋赵盾弑其君夷皋。",
+    "category": "succession",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [
+      "zhao-dun",
+      "jin-linggong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan12-1",
+    "luYearId": "xuan-12",
+    "jingText": "晋楚战于邲，晋师败绩。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "chu"
+    ],
+    "placeIds": [
+      "bi"
+    ],
+    "personIds": [
+      "chu-zhuangwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公十二年（邲之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan15-1",
+    "luYearId": "xuan-15",
+    "jingText": "晋侯伐郑。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-cheng2-1",
+    "luYearId": "cheng-2",
+    "jingText": "齐晋战于鞌，齐师败绩。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "jin"
+    ],
+    "placeIds": [
+      "an"
+    ],
+    "personIds": [
+      "qi-qinggong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公二年（鞌之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng8-1",
+    "luYearId": "cheng-8",
+    "jingText": "晋侯使士燮来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "jin",
+      "lu"
+    ],
+    "placeIds": [
+      "qufu",
+      "jiang"
+    ],
+    "personIds": [
+      "shi-xie"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公八年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-cheng16-1",
+    "luYearId": "cheng-16",
+    "jingText": "晋楚战于鄢陵，楚师败绩。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "chu",
+      "zheng"
+    ],
+    "placeIds": [
+      "yanling"
+    ],
+    "personIds": [
+      "jin-lianggong",
+      "chu-gongwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公十六年（鄢陵之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen1-1",
+    "luYearId": "wen-1",
+    "jingText": "元年春，王正月，公即位。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-wen"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公1年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen3-1",
+    "luYearId": "wen-3",
+    "jingText": "三年春，王正月，叔孙得臣会晋人、宋人、陈人、卫人、郑人伐沈，沈溃。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "jin",
+      "song",
+      "chen",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公3年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen4-2",
+    "luYearId": "wen-4",
+    "jingText": "秋，楚人灭江。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "jiang"
+    ],
+    "placeIds": [
+      "jiangdu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公4年",
+    "certainty": "high",
+    "zuoComment": "江为小国，经文著楚兼并。",
+    "territoryChanges": [
+      {
+        "placeId": "jiangdu",
+        "fromStateId": "jiang",
+        "toStateId": "chu",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-wen5-1",
+    "luYearId": "wen-5",
+    "jingText": "五年春，王正月，王使荣叔归含且赗。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zhou"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公5年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen6-1",
+    "luYearId": "wen-6",
+    "jingText": "六年春，葬许僖公。",
+    "category": "succession",
+    "stateIds": [],
+    "placeIds": [
+      "xu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公6年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen8-1",
+    "luYearId": "wen-8",
+    "jingText": "八年春，王正月。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公8年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen9-1",
+    "luYearId": "wen-9",
+    "jingText": "九年春，毛伯来求金。",
+    "category": "diplomatic",
+    "stateIds": [
+      "zhou",
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公9年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen10-1",
+    "luYearId": "wen-10",
+    "jingText": "十年春，王三月辛卯，臧孙辰卒。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公10年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen11-1",
+    "luYearId": "wen-11",
+    "jingText": "十有一年春，楚子伐麇。",
+    "category": "battle",
+    "stateIds": [
+      "chu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "chu-zhuangwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公11年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen12-1",
+    "luYearId": "wen-12",
+    "jingText": "十有二年春，王正月，郕伯来奔。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公12年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen13-1",
+    "luYearId": "wen-13",
+    "jingText": "十有三年春，王正月。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公13年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen14-1",
+    "luYearId": "wen-14",
+    "jingText": "十有四年春，王正月，公至自晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-wen"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公14年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen16-1",
+    "luYearId": "wen-16",
+    "jingText": "十有六年春，季孙行父会齐侯于阳穀，齐侯弗及盟。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "yanggu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公16年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen17-1",
+    "luYearId": "wen-17",
+    "jingText": "十有七年春，晋人、卫人、陈人、郑人伐宋。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "wei",
+      "chen",
+      "zheng",
+      "song"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公17年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-wen18-1",
+    "luYearId": "wen-18",
+    "jingText": "十有八年春，王二月丁丑，公薨于台下。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-wen"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》文公18年",
+    "certainty": "high",
+    "zuoComment": "冬有子卒、立宣公等，经用「子卒」讳文，此取春条公薨。"
+  },
+  {
+    "id": "ev-xuan1-1",
+    "luYearId": "xuan-1",
+    "jingText": "元年春王正月，公即位。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公1年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan3-1",
+    "luYearId": "xuan-3",
+    "jingText": "三年春王正月，郊牛之口伤，改卜牛，牛死，乃不郊，犹三望。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公3年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan4-1",
+    "luYearId": "xuan-4",
+    "jingText": "四年春王正月，公及齐侯平莒及郯。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公4年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan5-1",
+    "luYearId": "xuan-5",
+    "jingText": "五年春，公如齐。夏，公至自齐。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公5年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan6-1",
+    "luYearId": "xuan-6",
+    "jingText": "六年春，晋赵盾、孙免侵陈。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "chen"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "zhao-dun"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公6年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan7-1",
+    "luYearId": "xuan-7",
+    "jingText": "七年春，公如齐。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公7年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan8-1",
+    "luYearId": "xuan-8",
+    "jingText": "八年春，公至自会。",
+    "category": "assembly",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公8年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan9-1",
+    "luYearId": "xuan-9",
+    "jingText": "九年春王正月。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公9年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan10-1",
+    "luYearId": "xuan-10",
+    "jingText": "十年春，公如齐。至。夏，齐人归我济西田。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公10年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan11-1",
+    "luYearId": "xuan-11",
+    "jingText": "十有一年春王三月，公至自晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-xuan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公11年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan13-1",
+    "luYearId": "xuan-13",
+    "jingText": "十有三年春，晋杀其大夫赵同、赵括。",
+    "category": "succession",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公13年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan14-1",
+    "luYearId": "xuan-14",
+    "jingText": "十有四年春，晋杀其大夫先縠。",
+    "category": "succession",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公14年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan16-1",
+    "luYearId": "xuan-16",
+    "jingText": "十有六年春王正月，晋人灭赤狄甲氏及留吁。",
+    "category": "battle",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公16年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan17-1",
+    "luYearId": "xuan-17",
+    "jingText": "十有七年春王正月，庚子，许男锡我卒。",
+    "category": "succession",
+    "stateIds": [],
+    "placeIds": [
+      "xu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公17年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xuan18-1",
+    "luYearId": "xuan-18",
+    "jingText": "十有八年春，归父还自晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》宣公18年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng1-1",
+    "luYearId": "cheng-1",
+    "jingText": "元年春王正月，公即位。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-cheng"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公1年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng3-1",
+    "luYearId": "cheng-3",
+    "jingText": "三年春王正月，公会晋侯、宋公、卫侯、曹伯伐郑。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "jin",
+      "song",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-cheng"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公3年",
+    "certainty": "high",
+    "zuoComment": "诸侯次于伯牛讨郑贰楚（左传）；此后汶阳棘田见传中。"
+  },
+  {
+    "id": "ev-cheng4-1",
+    "luYearId": "cheng-4",
+    "jingText": "四年春，宋公使华元来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "song"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公4年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng5-1",
+    "luYearId": "cheng-5",
+    "jingText": "五年春王正月，杞叔姬卒。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公5年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng6-1",
+    "luYearId": "cheng-6",
+    "jingText": "六年春王正月，公至自会。",
+    "category": "assembly",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-cheng"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公6年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng7-1",
+    "luYearId": "cheng-7",
+    "jingText": "七年春王正月，鼷鼠食郊牛，改卜牛。鼷鼠又食其角，乃免牛。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公7年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng9-1",
+    "luYearId": "cheng-9",
+    "jingText": "九年春王正月。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公9年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng10-1",
+    "luYearId": "cheng-10",
+    "jingText": "十年春，公会晋侯、宋公、卫侯、曹伯、莒子、邾子、滕子、薛伯、杞伯、小邾子、齐世子光会吴于柤。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "jin",
+      "song",
+      "wei",
+      "cao",
+      "wu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-cheng"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公10年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng11-1",
+    "luYearId": "cheng-11",
+    "jingText": "十有一年春王三月，公至自晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-cheng"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公11年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng12-1",
+    "luYearId": "cheng-12",
+    "jingText": "十有二年春，葬许灵公。",
+    "category": "succession",
+    "stateIds": [],
+    "placeIds": [
+      "xu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公12年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng13-1",
+    "luYearId": "cheng-13",
+    "jingText": "十有三年春，晋侯使郤锜来乞师。",
+    "category": "diplomatic",
+    "stateIds": [
+      "jin",
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公13年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng14-1",
+    "luYearId": "cheng-14",
+    "jingText": "十有四年春王正月。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公14年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng15-1",
+    "luYearId": "cheng-15",
+    "jingText": "十有五年春王二月，葬卫定公。",
+    "category": "succession",
+    "stateIds": [
+      "wei"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公15年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng17-1",
+    "luYearId": "cheng-17",
+    "jingText": "十有七年春，卫北宫括帅师侵郑。",
+    "category": "battle",
+    "stateIds": [
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公17年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-cheng18-1",
+    "luYearId": "cheng-18",
+    "jingText": "十有八年春王正月。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》成公18年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xiang3-1",
+    "luYearId": "xiang-3",
+    "jingText": "晋侯伐郑。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公三年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang11-1",
+    "luYearId": "xiang-11",
+    "jingText": "晋侯会吴于柤。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "wu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公十一年",
+    "certainty": "medium",
+    "zuoComment": "晋侯与吴子会于柤（今苏皖边境约今安徽泗县附近，具体位置尚有争议），晋通过结吴形成对楚东侧夹击态势，是晋拉拢吴国战略的重要一步。"
+  },
+  {
+    "id": "ev-xiang25-1",
+    "luYearId": "xiang-25",
+    "jingText": "夏，会于夷仪，诸侯同盟。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "yiyi"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公二十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao7-1",
+    "luYearId": "zhao-7",
+    "jingText": "楚人围陈。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "chen"
+    ],
+    "placeIds": [
+      "wanqiu",
+      "ying"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公七年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao20-1",
+    "luYearId": "zhao-20",
+    "jingText": "夏，晋侯使士鞅来聘。蔡侯、许男会于平丘。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "cai",
+      "xu-state"
+    ],
+    "placeIds": [
+      "pingqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公二十年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao25-1",
+    "luYearId": "zhao-25",
+    "jingText": "冬，晋赵鞅帅师伐卫。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "wei"
+    ],
+    "placeIds": [
+      "chengqiu",
+      "jiang"
+    ],
+    "personIds": [
+      "zhao-yang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公二十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-ding4-1",
+    "luYearId": "ding-4",
+    "jingText": "蔡侯以吴子及楚人战于柏举，楚师败绩。吴入郢。",
+    "category": "battle",
+    "stateIds": [
+      "cai",
+      "wu",
+      "chu"
+    ],
+    "placeIds": [
+      "boju",
+      "ying"
+    ],
+    "personIds": [
+      "wu-helv"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公四年",
+    "certainty": "high",
+    "zuoComment": "柏举之战为吴、蔡联军伐楚，楚师败绩，吴师随后入郢。"
+  },
+  {
+    "id": "ev-ding10-2",
+    "luYearId": "ding-10",
+    "jingText": "齐人来归郓、讙、龟阴田。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "yun",
+      "huan"
+    ],
+    "personIds": [
+      "lu-ding"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公十年",
+    "certainty": "high",
+    "zuoComment": "夹谷之会后，齐归还鲁之郓、讙、龟阴田；不再误置于定公八年。"
+  },
+  {
+    "id": "ev-ding13-1",
+    "luYearId": "ding-13",
+    "jingText": "吴人伐越。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "yue"
+    ],
+    "placeIds": [
+      "gushu",
+      "guiji"
+    ],
+    "personIds": [
+      "wu-helv",
+      "yue-gujian"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公十三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xiang1-1",
+    "luYearId": "xiang-1",
+    "jingText": "仲孙蔑会吴于善道。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "wu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公1年",
+    "certainty": "medium",
+    "zuoComment": "鲁大夫仲孙蔑与吴会，开鲁吴外交往来，是吴崛起后进入中原视野之始。"
+  },
+  {
+    "id": "ev-xiang2-1",
+    "luYearId": "xiang-2",
+    "jingText": "公至自晋，晋侯使韩无忌来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公2年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang4-1",
+    "luYearId": "xiang-4",
+    "jingText": "公会诸侯于鄫，以讨郑之叛。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "cao",
+      "zheng"
+    ],
+    "placeIds": [
+      "zeng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公4年",
+    "certainty": "medium",
+    "zuoComment": "晋召诸侯于鄫，重申盟约以压制郑之二心。"
+  },
+  {
+    "id": "ev-xiang5-1",
+    "luYearId": "xiang-5",
+    "jingText": "公会晋侯、宋公、卫侯、郑伯、曹伯、吴子、邾子于戚。城虎牢。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "cao",
+      "wu"
+    ],
+    "placeIds": [
+      "hulao"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公5年",
+    "certainty": "medium",
+    "zuoComment": "晋率诸侯城虎牢，控制洛水以南门户，郑降晋。"
+  },
+  {
+    "id": "ev-xiang6-1",
+    "luYearId": "xiang-6",
+    "jingText": "晋栾黡帅师伐楚救陈，公率师从。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "lu",
+      "chu",
+      "chen"
+    ],
+    "placeIds": [
+      "wanqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公6年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang7-1",
+    "luYearId": "xiang-7",
+    "jingText": "公如晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公7年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang8-1",
+    "luYearId": "xiang-8",
+    "jingText": "晋侯帅诸侯伐郑，楚救郑。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "chu"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公8年",
+    "certainty": "medium",
+    "zuoComment": "晋楚在郑周旋，郑再度降晋，惟楚军及时驰援，双方对峙。"
+  },
+  {
+    "id": "ev-xiang9-1",
+    "luYearId": "xiang-9",
+    "jingText": "公会晋侯、宋公、卫侯、郑伯于戚。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公9年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang10-1",
+    "luYearId": "xiang-10",
+    "jingText": "公会晋侯等诸侯，伐郑，入其城。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "cao",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公10年",
+    "certainty": "medium",
+    "zuoComment": "晋联盟诸侯大举伐郑，入郑城，郑人请和。"
+  },
+  {
+    "id": "ev-xiang12-1",
+    "luYearId": "xiang-12",
+    "jingText": "公会诸侯于安甫。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "cao",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公12年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang13-1",
+    "luYearId": "xiang-13",
+    "jingText": "公会晋侯等伐秦。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "cao",
+      "qin"
+    ],
+    "placeIds": [
+      "yong"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公13年",
+    "certainty": "medium",
+    "zuoComment": "晋率诸侯伐秦，为报旧恨，然至泾而还，无大功。"
+  },
+  {
+    "id": "ev-xiang14-1",
+    "luYearId": "xiang-14",
+    "jingText": "晋侯伐秦，会诸侯于雍。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "cao",
+      "zheng",
+      "qin"
+    ],
+    "placeIds": [
+      "yong"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公14年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang15-1",
+    "luYearId": "xiang-15",
+    "jingText": "刘夏逆王后于齐，晋侯使荀罃来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "zhou",
+      "qi",
+      "jin",
+      "lu"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公15年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang16-1",
+    "luYearId": "xiang-16",
+    "jingText": "公会晋侯、宋公、卫侯、郑伯、曹伯、莒子、邾子、薛伯、杞伯、小邾子于湨梁。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [
+      "juliang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公16年",
+    "certainty": "medium",
+    "zuoComment": "湨梁之会，晋率十一国诸侯会盟，重申晋霸地位。"
+  },
+  {
+    "id": "ev-xiang17-1",
+    "luYearId": "xiang-17",
+    "jingText": "晋侯帅师伐齐，次于齐西鄙。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公17年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang18-1",
+    "luYearId": "xiang-18",
+    "jingText": "晋侯帅师伐齐，入临淄。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公18年",
+    "certainty": "medium",
+    "zuoComment": "晋会诸侯大举伐齐，深入临淄，齐请盟而罢，齐侯复入晋霸联盟。"
+  },
+  {
+    "id": "ev-xiang19-1",
+    "luYearId": "xiang-19",
+    "jingText": "公会晋侯等诸侯于澶渊。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "cao",
+      "qi"
+    ],
+    "placeIds": [
+      "chanyuan"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公19年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang20-1",
+    "luYearId": "xiang-20",
+    "jingText": "卫人来媵，晋士鲂来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "wei",
+      "jin"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公20年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang21-1",
+    "luYearId": "xiang-21",
+    "jingText": "公会诸侯于商任，盟于亳。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "cao",
+      "zheng",
+      "qi"
+    ],
+    "placeIds": [
+      "bao"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公21年",
+    "certainty": "medium",
+    "zuoComment": "诸侯盟于亳，为晋霸体系的再度确认会盟。"
+  },
+  {
+    "id": "ev-xiang22-1",
+    "luYearId": "xiang-22",
+    "jingText": "公会晋侯于沙随。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "shaosui"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公22年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang23-1",
+    "luYearId": "xiang-23",
+    "jingText": "公如晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公23年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang24-1",
+    "luYearId": "xiang-24",
+    "jingText": "公会晋侯、宋公、卫侯、郑伯、曹伯于戚。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公24年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang26-1",
+    "luYearId": "xiang-26",
+    "jingText": "楚子伐吴，吴人拒之。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "wu"
+    ],
+    "placeIds": [
+      "gushu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公26年",
+    "certainty": "medium",
+    "zuoComment": "楚随围攻吴，吴军奋力拒守，吴楚对抗格局初显。"
+  },
+  {
+    "id": "ev-xiang27-1",
+    "luYearId": "xiang-27",
+    "jingText": "向戌弭兵，诸侯盟于宋。晋楚齐秦与诸侯会，息兵弭战。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "chu",
+      "song",
+      "wei",
+      "zheng",
+      "cao",
+      "qi"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》襄公27年",
+    "certainty": "medium",
+    "zuoComment": "宋向戌奔走于晋楚之间，促成弭兵之盟：晋楚共霸，诸侯各分朝贡晋楚，列国获短暂休战。"
+  },
+  {
+    "id": "ev-xiang28-1",
+    "luYearId": "xiang-28",
+    "jingText": "公如晋，晋韩起来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公28年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang29-1",
+    "luYearId": "xiang-29",
+    "jingText": "公如楚，吴季札来聘，请观周乐。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "chu",
+      "wu"
+    ],
+    "placeIds": [
+      "ying"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》襄公29年",
+    "certainty": "medium",
+    "zuoComment": "吴公子季札聘鲁，观周室雅乐，品评列国诗乐，诸侯叹服；公亦如楚加强外交。"
+  },
+  {
+    "id": "ev-xiang30-1",
+    "luYearId": "xiang-30",
+    "jingText": "郑伯使驷带来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "zheng"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公30年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xiang31-1",
+    "luYearId": "xiang-31",
+    "jingText": "夏六月辛巳，公薨于楚宫。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》襄公31年",
+    "certainty": "medium",
+    "zuoComment": "鲁襄公薨，在位三十一年，三桓权盛，是为春秋中期鲁政权力转移之缩影。"
+  },
+  {
+    "id": "ev-zhao1-1",
+    "luYearId": "zhao-1",
+    "jingText": "公即位。楚公子围来聘，观兵。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "chu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公1年",
+    "certainty": "medium",
+    "zuoComment": "楚令尹公子围（即楚灵王）来聘，携大兵，意在夸示威势；鲁人观之惊惧。"
+  },
+  {
+    "id": "ev-zhao2-1",
+    "luYearId": "zhao-2",
+    "jingText": "晋韩宣子来聘，见鲁书，叹周礼尽在鲁。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公2年",
+    "certainty": "medium",
+    "zuoComment": "韩宣子在鲁观书，见《易》、《象》与鲁春秋，赞叹「周礼尽在鲁矣」，为著名典故。"
+  },
+  {
+    "id": "ev-zhao3-1",
+    "luYearId": "zhao-3",
+    "jingText": "楚公子围弑其君麋而代立，是为楚灵王。",
+    "category": "other",
+    "stateIds": [
+      "chu"
+    ],
+    "placeIds": [
+      "ying"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公3年",
+    "certainty": "medium",
+    "zuoComment": "楚令尹公子围勒死楚郏敖，自立为王，是为楚灵王，楚政由此进入更强势的扩张期。"
+  },
+  {
+    "id": "ev-zhao4-1",
+    "luYearId": "zhao-4",
+    "jingText": "公如晋。楚灵王筑章华之台。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin",
+      "chu"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公4年",
+    "certainty": "medium",
+    "zuoComment": "楚灵王大兴土木，修章华台，劳民，诸国侧目；公如晋，仍维持晋盟。"
+  },
+  {
+    "id": "ev-zhao5-1",
+    "luYearId": "zhao-5",
+    "jingText": "公如晋，参与晋召诸侯之盟。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "jin",
+      "song",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公5年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao6-1",
+    "luYearId": "zhao-6",
+    "jingText": "楚灵王伐陈，围陈。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "chen"
+    ],
+    "placeIds": [
+      "wanqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公6年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao8-1",
+    "luYearId": "zhao-8",
+    "jingText": "楚师灭陈。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "chen"
+    ],
+    "placeIds": [
+      "wanqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公八年",
+    "certainty": "medium",
+    "zuoComment": "陈内乱后，楚灵王因陈乱而灭陈，置为楚县；后楚平王立，陈复国。",
+    "territoryChanges": [
+      {
+        "placeId": "wanqiu",
+        "fromStateId": "chen",
+        "toStateId": "chu",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-zhao9-1",
+    "luYearId": "zhao-9",
+    "jingText": "公如晋。叔弓帅师入费，克之。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公9年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao10-1",
+    "luYearId": "zhao-10",
+    "jingText": "公会宋公于公甫。叔孙婼如齐。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "song",
+      "qi"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公10年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao11-1",
+    "luYearId": "zhao-11",
+    "jingText": "楚子诱蔡侯般杀之于申。楚公子弃疾帅师围蔡。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "cai"
+    ],
+    "placeIds": [
+      "shen-chu",
+      "shangcai"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公十一年",
+    "certainty": "medium",
+    "zuoComment": "楚灵王诱杀蔡灵侯，并以公子弃疾围蔡，蔡国一度入楚。",
+    "territoryChanges": [
+      {
+        "placeId": "shangcai",
+        "fromStateId": "cai",
+        "toStateId": "chu",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-zhao12-1",
+    "luYearId": "zhao-12",
+    "jingText": "楚灵王大会诸侯于申。",
+    "category": "assembly",
+    "stateIds": [
+      "chu",
+      "lu",
+      "cai",
+      "chen"
+    ],
+    "placeIds": [
+      "shen-chu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公十二年",
+    "certainty": "medium",
+    "zuoComment": "楚灵王欲以申之会夸示楚威；此条为传文叙事，不作陈国 territoryChanges。"
+  },
+  {
+    "id": "ev-zhao13-1",
+    "luYearId": "zhao-13",
+    "jingText": "楚公子弃疾杀灵王而立，是为楚平王；陈、蔡复国。",
+    "category": "other",
+    "stateIds": [
+      "chu",
+      "chen",
+      "cai"
+    ],
+    "placeIds": [
+      "ying",
+      "wanqiu",
+      "shangcai"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公十三年",
+    "certainty": "medium",
+    "zuoComment": "楚灵王死，弃疾即位为楚平王，改弦更张，复封陈、蔡。",
+    "territoryChanges": [
+      {
+        "placeId": "wanqiu",
+        "fromStateId": "chu",
+        "toStateId": "chen",
+        "changeType": "recover"
+      },
+      {
+        "placeId": "shangcai",
+        "fromStateId": "chu",
+        "toStateId": "cai",
+        "changeType": "recover"
+      }
+    ]
+  },
+  {
+    "id": "ev-zhao14-1",
+    "luYearId": "zhao-14",
+    "jingText": "蔡侯朱出奔楚。",
+    "category": "other",
+    "stateIds": [
+      "cai",
+      "chu"
+    ],
+    "placeIds": [
+      "ying"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公14年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao15-1",
+    "luYearId": "zhao-15",
+    "jingText": "公如晋，参与晋卫盟会。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin",
+      "wei"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公15年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao16-1",
+    "luYearId": "zhao-16",
+    "jingText": "公如晋。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公十六年",
+    "certainty": "high",
+    "zuoComment": "昭公十六年鲁侯朝晋，晋平公末年，韩宣子为政；楚灵王已死于昭公十三年，申会是昭公十二年事，不属本年。"
+  },
+  {
+    "id": "ev-zhao17-1",
+    "luYearId": "zhao-17",
+    "jingText": "陈侯吴卒，郑灾，晏婴如晋。",
+    "category": "other",
+    "stateIds": [
+      "chen",
+      "zheng",
+      "qi",
+      "jin"
+    ],
+    "placeIds": [
+      "wanqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公17年",
+    "certainty": "medium",
+    "zuoComment": "陈侯去世，陈在楚压制下实际为楚所控；齐晏婴聘晋，修两国外交。"
+  },
+  {
+    "id": "ev-zhao18-1",
+    "luYearId": "zhao-18",
+    "jingText": "晋士鞅、宋乐祁帅师伐曹，曹人请盟。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "song",
+      "cao"
+    ],
+    "placeIds": [
+      "tao"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公18年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao19-1",
+    "luYearId": "zhao-19",
+    "jingText": "公如晋，晋侯使子服惠伯来聘。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公19年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhao21-1",
+    "luYearId": "zhao-21",
+    "jingText": "公会晋侯等诸侯于平丘，盟于蒲圃，晋侯方镇诸侯。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "cao",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公21年",
+    "certainty": "medium",
+    "zuoComment": "晋侯会诸侯于平丘，借会兵压齐，执邾子，齐不服，晋霸渐弱。"
+  },
+  {
+    "id": "ev-zhao22-1",
+    "luYearId": "zhao-22",
+    "jingText": "周景王崩，王室乱起。",
+    "category": "other",
+    "stateIds": [
+      "zhou"
+    ],
+    "placeIds": [
+      "wangcheng"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《春秋》《左传》昭公二十二年",
+    "certainty": "medium",
+    "zuoComment": "周景王崩后，王子朝之乱渐起；王子朝奔楚不应并入本年经文。"
+  },
+  {
+    "id": "ev-zhao23-1",
+    "luYearId": "zhao-23",
+    "jingText": "吴伐州来，克之。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "chu"
+    ],
+    "placeIds": [
+      "gushu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公23年",
+    "certainty": "medium",
+    "zuoComment": "吴军攻克楚之州来（今安徽凤台），为吴深入淮水流域，扩大对楚压力。"
+  },
+  {
+    "id": "ev-zhao24-1",
+    "luYearId": "zhao-24",
+    "jingText": "王子朝之乱未靖，晋人纳王于王城。",
+    "category": "other",
+    "stateIds": [
+      "zhou",
+      "jin"
+    ],
+    "placeIds": [
+      "wangcheng"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公二十四年",
+    "certainty": "medium",
+    "zuoComment": "此年以周王室内乱与晋人干预为主，不再误写楚平王即位。"
+  },
+  {
+    "id": "ev-zhao26-1",
+    "luYearId": "zhao-26",
+    "jingText": "公在齐，齐侯将纳公。",
+    "category": "other",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "lu-zhao"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公二十六年",
+    "certainty": "medium",
+    "zuoComment": "昭公出奔后在齐，诸侯围绕纳公归鲁反复折冲。"
+  },
+  {
+    "id": "ev-zhao27-1",
+    "luYearId": "zhao-27",
+    "jingText": "吴公子光刺杀吴王僚，自立为阖庐。",
+    "category": "other",
+    "stateIds": [
+      "wu"
+    ],
+    "placeIds": [
+      "gushu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公27年",
+    "certainty": "medium",
+    "zuoComment": "吴公子光使专诸行刺吴王僚，即位为吴王阖庐，任用伍子胥、孙武，吴由此进入最强盛期。"
+  },
+  {
+    "id": "ev-zhao28-1",
+    "luYearId": "zhao-28",
+    "jingText": "晋魏舒帅师伐无终，克之。晋杀祁盈及杨食我。",
+    "category": "other",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公28年",
+    "certainty": "medium",
+    "zuoComment": "晋分祁氏、羊舌氏之田为十县，晋六卿并吞贵族领地，国内权力日益集中于卿族。"
+  },
+  {
+    "id": "ev-zhao29-1",
+    "luYearId": "zhao-29",
+    "jingText": "晋赵鞅、荀寅铸刑鼎，书范宣子之刑书。",
+    "category": "other",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》昭公29年",
+    "certainty": "medium",
+    "zuoComment": "晋铸刑鼎，孔子批评此举破坏礼制，然此是中国成文法发展的重要节点。"
+  },
+  {
+    "id": "ev-zhao30-1",
+    "luYearId": "zhao-30",
+    "jingText": "吴师伐越，越人拒之。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "yue"
+    ],
+    "placeIds": [
+      "gushu",
+      "guiji"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公30年",
+    "certainty": "medium",
+    "zuoComment": "吴越争端加剧，吴王阖庐开始南征越国，拉开吴越长期争霸序幕。"
+  },
+  {
+    "id": "ev-zhao31-1",
+    "luYearId": "zhao-31",
+    "jingText": "公在乾侯，晋入鲁昭公于外。",
+    "category": "other",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "qianhou"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公31年",
+    "certainty": "medium",
+    "zuoComment": "鲁昭公长期流亡，晋虽有意助其返国，然季平子坚拒，昭公终未能还鲁。"
+  },
+  {
+    "id": "ev-zhao32-1",
+    "luYearId": "zhao-32",
+    "jingText": "公薨于乾侯。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qianhou"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公32年",
+    "certainty": "medium",
+    "zuoComment": "鲁昭公流亡三十二年位，终薨于乾侯，不得归国，为春秋君主出奔而终的典型。"
+  },
+  {
+    "id": "ev-ding1-1",
+    "luYearId": "ding-1",
+    "jingText": "公即位。晋人送昭公之柩，季平子如晋拜。",
+    "category": "other",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公1年",
+    "certainty": "medium",
+    "zuoComment": "鲁定公即位，季平子赴晋谢送灵柩之礼，鲁内政仍由三桓主导。"
+  },
+  {
+    "id": "ev-ding2-1",
+    "luYearId": "ding-2",
+    "jingText": "晋赵鞅、荀寅帅师城汝滨，遂赋晋国一鼓铁，以铸刑鼎。",
+    "category": "other",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》定公2年",
+    "certainty": "medium",
+    "zuoComment": "晋继续加强法制建设，铸刑鼎。"
+  },
+  {
+    "id": "ev-ding3-1",
+    "luYearId": "ding-3",
+    "jingText": "晋赵鞅帅师伐卫。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "wei"
+    ],
+    "placeIds": [
+      "chengqiu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公3年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-ding4-2",
+    "luYearId": "ding-4",
+    "jingText": "伍员、孙武佐吴伐楚，五战及郢。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "chu",
+      "cai"
+    ],
+    "placeIds": [
+      "boju",
+      "ying"
+    ],
+    "personIds": [
+      "wu-helv"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》定公四年",
+    "certainty": "medium",
+    "zuoComment": "此条保留传文脉络，避免再误写楚、蔡、陈伐吴。"
+  },
+  {
+    "id": "ev-ding5-1",
+    "luYearId": "ding-5",
+    "jingText": "申包胥如秦乞师，秦师救楚，吴师退。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "qin",
+      "wu"
+    ],
+    "placeIds": [
+      "ying"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》定公五年",
+    "certainty": "medium",
+    "zuoComment": "申包胥为楚昭王求秦师，不是楚平王之臣；秦救楚后，吴师退去。"
+  },
+  {
+    "id": "ev-ding6-1",
+    "luYearId": "ding-6",
+    "jingText": "晋赵鞅帅师伐郑，讨其附楚。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公6年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-ding7-1",
+    "luYearId": "ding-7",
+    "jingText": "季桓子受齐女乐，孔子去鲁。",
+    "category": "other",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "kongzi"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》《史记》孔子世家相关叙事",
+    "certainty": "medium",
+    "zuoComment": "此条为孔子仕鲁、去鲁的传世叙事，不再误作夹谷经文。"
+  },
+  {
+    "id": "ev-ding9-1",
+    "luYearId": "ding-9",
+    "jingText": "公会吴于橐皋。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "wu"
+    ],
+    "placeIds": [
+      "jiashan"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公9年",
+    "certainty": "medium",
+    "zuoComment": "吴国崛起后，鲁与吴开始会盟，显示春秋晚期外交格局的变化。"
+  },
+  {
+    "id": "ev-ding10-1",
+    "luYearId": "ding-10",
+    "jingText": "夏，公会齐侯于夹谷。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "jiagu"
+    ],
+    "personIds": [
+      "lu-ding",
+      "kongzi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公十年",
+    "certainty": "high",
+    "zuoComment": "夹谷之会，孔子相礼，齐归鲁侵田事由此展开。"
+  },
+  {
+    "id": "ev-ding11-1",
+    "luYearId": "ding-11",
+    "jingText": "叔孙州仇、仲孙何忌帅师围费，弗克。",
+    "category": "battle",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》定公11年",
+    "certainty": "medium",
+    "zuoComment": "鲁欲堕三都（费、后、成）以削弱三桓私邑，围费未克，孔子堕都计划受挫。"
+  },
+  {
+    "id": "ev-ding12-1",
+    "luYearId": "ding-12",
+    "jingText": "公会吴及诸侯于橐皋。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "wu",
+      "qi",
+      "song"
+    ],
+    "placeIds": [
+      "jiashan"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公12年",
+    "certainty": "medium",
+    "zuoComment": "吴主导中原诸侯会盟，标志吴已跻身春秋晚期强国之列。"
+  },
+  {
+    "id": "ev-ding14-1",
+    "luYearId": "ding-14",
+    "jingText": "越败吴于槜李，吴子光卒。",
+    "category": "battle",
+    "stateIds": [
+      "wu",
+      "yue"
+    ],
+    "placeIds": [
+      "zuili"
+    ],
+    "personIds": [
+      "wu-helv",
+      "yue-gujian"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公十四年",
+    "certainty": "medium",
+    "zuoComment": "槜李之战，越败吴，吴王阖闾伤而卒；夫差继位。"
+  },
+  {
+    "id": "ev-ding15-1",
+    "luYearId": "ding-15",
+    "jingText": "公薨。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》定公15年",
+    "certainty": "medium",
+    "zuoComment": "鲁定公薨，孔子此时已离鲁，定公时代见证了孔子仕鲁、三桓坐大与吴越争霸的时代大转折。"
+  },
+  {
+    "id": "ev-zhao25-2",
+    "luYearId": "zhao-25",
+    "jingText": "九月己亥，公孙于齐，次于阳州。",
+    "category": "other",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "lu-zhao"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》昭公二十五年",
+    "certainty": "medium",
+    "zuoComment": "昭公讨季氏失败出奔齐国，鲁政由季氏把持。"
+  },
+  {
+    "id": "ev-ai3-1",
+    "luYearId": "ai-3",
+    "jingText": "桓宫、僖宫灾。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公三年",
+    "certainty": "high",
+    "zuoComment": "哀公三年夏，鲁国桓公、僖公宗庙失火，是为宫廷大灾，左传记孔子在外期间鲁国内政失序。"
+  },
+  {
+    "id": "ev-ai11-1",
+    "luYearId": "ai-11",
+    "jingText": "公会吴伐齐，战于艾，吴败齐师。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "wu",
+      "qi"
+    ],
+    "placeIds": [
+      "aili"
+    ],
+    "personIds": [
+      "wu-fucha"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公十一年",
+    "certainty": "high",
+    "zuoComment": "艾陵之战：吴王夫差联合鲁国大败齐师于艾陵（今山东莱芜），斩获甲首八万，是吴北上争霸的顶峰。冉有率鲁军以步战之法立功。"
+  },
+  {
+    "id": "ev-ai13-2",
+    "luYearId": "ai-13",
+    "jingText": "公会晋侯及吴子于黄池。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "jin",
+      "wu"
+    ],
+    "placeIds": [
+      "huangchi"
+    ],
+    "personIds": [
+      "wu-fucha"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公十三年",
+    "certainty": "high",
+    "zuoComment": "黄池之会，吴王夫差与晋定公争夺盟主之位，终以晋先歃血、吴次之而成盟。此为吴国霸业顶峰；然越王勾践同时袭击吴都，形势急转。"
+  },
+  {
+    "id": "ev-ai13-1",
+    "luYearId": "ai-13",
+    "jingText": "越人入吴。",
+    "category": "battle",
+    "stateIds": [
+      "yue",
+      "wu"
+    ],
+    "placeIds": [
+      "gushu"
+    ],
+    "personIds": [
+      "yue-gujian",
+      "wu-fucha"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》哀公十三年",
+    "certainty": "high",
+    "zuoComment": "哀公十三年，夫差在黄池与晋争盟之际，越王勾践趁虚率兵直入吴都，斩吴太子友，形势逆转。"
+  },
+  {
+    "id": "ev-zhuang2-1",
+    "luYearId": "zhuang-2",
+    "jingText": "夫人姜氏会齐侯于禚。",
+    "zuoComment": "书，非礼也。凡诸侯之女，归宁曰来，出曰来归，夫人不书姜氏，非礼也。",
+    "category": "diplomacy",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "zhuo"
+    ],
+    "personIds": [
+      "wen-jiang",
+      "qi-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang2-2",
+    "luYearId": "zhuang-2",
+    "jingText": "冬，公子庆父帅师伐於馀丘。",
+    "category": "battle",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang3-1",
+    "luYearId": "zhuang-3",
+    "jingText": "公会齐侯于嬴。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "yingdi"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "qi-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang3-2",
+    "luYearId": "zhuang-3",
+    "jingText": "纪季以酅入于齐。",
+    "zuoComment": "纪于是乎始判。秋，公及齐侯、纪侯盟于黄。冬，纪侯来朝。",
+    "category": "diplomacy",
+    "stateIds": [
+      "ji2",
+      "qi"
+    ],
+    "placeIds": [
+      "jiying"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公三年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "jiying",
+        "fromStateId": "ji2",
+        "toStateId": "qi",
+        "changeType": "cede"
+      }
+    ]
+  },
+  {
+    "id": "ev-zhuang4-1",
+    "luYearId": "zhuang-4",
+    "jingText": "纪侯大去其国。",
+    "zuoComment": "纪侯不能下齐，将去国，违违哉，将焉入？《诗》曰「维其深矣」，纪于是乎亡。",
+    "category": "succession",
+    "stateIds": [
+      "ji2",
+      "qi"
+    ],
+    "placeIds": [
+      "jiying"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang4-2",
+    "luYearId": "zhuang-4",
+    "jingText": "夏，楚人伐申，过陉，使申侯如郑，曰：吾将伐郑，以救申，尔其无重我也。",
+    "category": "battle",
+    "stateIds": [
+      "chu"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》庄公四年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhuang5-1",
+    "luYearId": "zhuang-5",
+    "jingText": "公会齐人、宋人、陈人、蔡人伐卫。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "qi",
+      "song",
+      "chen",
+      "cai",
+      "wei"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-zhuang",
+      "qi-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公五年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang6-1",
+    "luYearId": "zhuang-6",
+    "jingText": "秋，公至自伐卫。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang6-2",
+    "luYearId": "zhuang-6",
+    "jingText": "冬，齐人来归卫俘。",
+    "category": "diplomacy",
+    "stateIds": [
+      "qi",
+      "wei"
+    ],
+    "placeIds": [],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang7-1",
+    "luYearId": "zhuang-7",
+    "jingText": "夫人姜氏会齐侯于防。",
+    "category": "diplomacy",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "fang"
+    ],
+    "personIds": [
+      "wen-jiang",
+      "qi-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang8-1",
+    "luYearId": "zhuang-8",
+    "jingText": "冬十有二月，齐无知弑其君诸儿。",
+    "zuoComment": "齐侯使连称、管至父戍葵丘。既而与无知谋，刺诸儿，无知立。公孙无知弑齐侯诸儿。无知，僖公之孙也。",
+    "category": "succession",
+    "stateIds": [
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "qi-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang9-1",
+    "luYearId": "zhuang-9",
+    "jingText": "夏，公伐齐纳子纠。",
+    "zuoComment": "鲁欲纳公子纠，管仲射小白中钩，小白佯死，先入齐；鲁纳纠，迟之，齐已受小白而立之。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-zhuang",
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang9-2",
+    "luYearId": "zhuang-9",
+    "jingText": "秋，师败绩于乾时。",
+    "zuoComment": "及齐师战于乾时，我师败绩。齐人取子纠杀之，召忽死之，管仲请囚，鲍叔牙请而免之，相桓公。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "qianshi"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang11-1",
+    "luYearId": "zhuang-11",
+    "jingText": "秋，宋大水。冬，荆入郑。",
+    "zuoComment": "荆，楚也。楚伐郑，为楚成王之父楚文王所发。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十一年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang12-1",
+    "luYearId": "zhuang-12",
+    "jingText": "秋七月，宋万弑其君捷，及其大夫仇牧。",
+    "zuoComment": "宋万者，宋庄公之臣，尝被俘于鲁。闵公讥之，万怒杀闵公，立子游，宋人攻之，万奔陈。",
+    "category": "succession",
+    "stateIds": [
+      "song"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [
+      "song-mingong",
+      "song-wan"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang13-2",
+    "luYearId": "zhuang-13",
+    "jingText": "公会齐侯于柯。",
+    "zuoComment": "曹沫以匕首劫桓公于坛上，求归侵鲁之地，桓公许之。管仲曰：「不可以失信」，卒归鲁之侵地。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "ke"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "qi-huangong",
+      "guan-zhong",
+      "cao-mo"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang14-1",
+    "luYearId": "zhuang-14",
+    "jingText": "诸侯为宋平，宋请见，会于阳谷。",
+    "zuoComment": "单伯会伐宋，列国应齐桓公之盟，合攻宋以责其不朝。宋请会，平之。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "chen",
+      "cai"
+    ],
+    "placeIds": [
+      "yanggu"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十四年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhuang15-1",
+    "luYearId": "zhuang-15",
+    "jingText": "春，诸侯会于鄄。",
+    "zuoComment": "诸侯会于鄄，宋公、陈侯、卫侯、郑伯来，齐桓公始霸。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "lu",
+      "song",
+      "wei",
+      "zheng",
+      "chen"
+    ],
+    "placeIds": [
+      "juan"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十五年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang16-1",
+    "luYearId": "zhuang-16",
+    "jingText": "春，王使召伯来赐公命。会于幽，宋人、齐人、卫人会于幽。",
+    "category": "assembly",
+    "stateIds": [
+      "zhou",
+      "qi",
+      "lu",
+      "song",
+      "wei"
+    ],
+    "placeIds": [
+      "you"
+    ],
+    "personIds": [
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang17-1",
+    "luYearId": "zhuang-17",
+    "jingText": "夏，齐人歼于遂。",
+    "zuoComment": "遂，风姓小国，亲于鲁而疏于齐。齐人乘盟会之机，歼其君臣，遂国遂亡。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "sui"
+    ],
+    "placeIds": [
+      "suidu"
+    ],
+    "personIds": [
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十七年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "suidu",
+        "fromStateId": "sui",
+        "toStateId": "qi",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-zhuang18-1",
+    "luYearId": "zhuang-18",
+    "jingText": "秋，有蜮。冬，公追戎于济西。",
+    "category": "battle",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang19-1",
+    "luYearId": "zhuang-19",
+    "jingText": "春，诸侯伐郑。宋人、齐人、邾人伐郑。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "song",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公十九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang20-1",
+    "luYearId": "zhuang-20",
+    "jingText": "夏，齐大夫来聘。冬，公及齐人狩于禚。",
+    "category": "diplomacy",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "zhuo"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang21-1",
+    "luYearId": "zhuang-21",
+    "jingText": "夏，公如齐观社。",
+    "zuoComment": "非礼也，曹刿谏曰：「女贽，不过榛栗枣修；以告虔也。男贽，大者玉帛，小者禽鸟，以章物也。」",
+    "category": "diplomacy",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "wen-jiang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十一年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang22-1",
+    "luYearId": "zhuang-22",
+    "jingText": "公如齐纳币。",
+    "category": "ritual",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang24-1",
+    "luYearId": "zhuang-24",
+    "jingText": "夏，公如齐逆女。秋，哀姜至。公子结媵陈人之妇于鄄，遂及郕人、许人盟。",
+    "zuoComment": "哀姜，齐桓公之女（说法），归鲁，至于秋至国。娣娣从行，过乘丘，被攻。",
+    "category": "ritual",
+    "stateIds": [
+      "lu",
+      "qi"
+    ],
+    "placeIds": [
+      "linzi",
+      "juan"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang25-1",
+    "luYearId": "zhuang-25",
+    "jingText": "公会齐侯、宋公、陈侯、卫侯、郑伯、许男、滑伯、滕子于幽盟。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi",
+      "song",
+      "chen",
+      "wei",
+      "zheng"
+    ],
+    "placeIds": [
+      "you"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-zhuang26-1",
+    "luYearId": "zhuang-26",
+    "jingText": "公会宋人、齐人伐徐。",
+    "category": "battle",
+    "stateIds": [
+      "lu",
+      "qi",
+      "song"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang27-1",
+    "luYearId": "zhuang-27",
+    "jingText": "冬，杞伯来朝。公会齐侯、宋公、陈侯、郑伯盟于幽。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "qi",
+      "song",
+      "chen",
+      "zheng"
+    ],
+    "placeIds": [
+      "you"
+    ],
+    "personIds": [
+      "lu-zhuang",
+      "qi-huangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang28-1",
+    "luYearId": "zhuang-28",
+    "jingText": "春，王三月，甲寅，齐人伐卫。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "wei"
+    ],
+    "placeIds": [
+      "zhongqiu"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "wei-yigong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang29-1",
+    "luYearId": "zhuang-29",
+    "jingText": "春，新延厩。",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公二十九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang30-1",
+    "luYearId": "zhuang-30",
+    "jingText": "夏，齐人伐山戎，救燕。",
+    "zuoComment": "山戎南侵伐燕，燕告急于齐，齐桓公率诸侯师北伐山戎，燕庄公送齐侯出境越礼。管仲曰：「诸侯之礼，不出境。」桓公割燕所至之地与燕，此为存燕之举，彰显齐霸仁义。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "yan"
+    ],
+    "placeIds": [
+      "ji"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公三十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang31-1",
+    "luYearId": "zhuang-31",
+    "jingText": "夏，筑台于郎。冬，不雨。",
+    "zuoComment": "筑台于郎，非礼也，以示奢。左传曰：「作台无义，非礼也。」",
+    "category": "other",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "lang"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公三十一年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-zhuang32-1",
+    "luYearId": "zhuang-32",
+    "jingText": "秋七月癸巳，公薨于路寝。",
+    "zuoComment": "庄公疾，将死，问后于叔牙。叔牙曰：「庆父材。」问于季友，友曰：「以死奉班，若不获命，请以死继之。」乃使僖叔奉子般以即位。",
+    "category": "succession",
+    "stateIds": [
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-zhuang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》庄公三十二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-min1-2",
+    "luYearId": "min-1",
+    "jingText": "冬，狄伐邢。",
+    "zuoComment": "狄人伐邢，管仲言于桓公曰：「戎狄豺狼，不可厌也；诸夏亲昵，不可弃也。宴安鸩毒，不可怀也。《诗》云：「岂不怀归，畏此简书。」齐侯不果救邢。",
+    "category": "battle",
+    "stateIds": [
+      "xing"
+    ],
+    "placeIds": [
+      "xingguo"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》闵公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-min2-1",
+    "luYearId": "min-2",
+    "jingText": "冬十有二月，狄入卫。卫侯毁灭。",
+    "zuoComment": "狄人伐卫，卫懿公好鹤，鹤有乘轩者。将战，国人受甲者皆曰：「使鹤，鹤实有禄位，余焉能战？」与狄人战于荧泽，卫师败绩，卫懿公死之。",
+    "category": "battle",
+    "stateIds": [
+      "wei"
+    ],
+    "placeIds": [
+      "zhongqiu"
+    ],
+    "personIds": [
+      "wei-yigong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》闵公二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-min2-2",
+    "luYearId": "min-2",
+    "jingText": "齐侯、宋公、曹伯城楚丘，而封卫焉。",
+    "zuoComment": "卫文公即位于楚丘，齐桓公以诸侯之师城楚丘而封之。遗民男女七百有三十人，益之以共、滕之民为五千人，立戴公，乃建卫国于楚丘。",
+    "category": "diplomacy",
+    "stateIds": [
+      "qi",
+      "song",
+      "wei",
+      "lu"
+    ],
+    "placeIds": [
+      "chuqiu"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》闵公二年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "chuqiu",
+        "fromStateId": null,
+        "toStateId": "wei",
+        "changeType": "recover"
+      }
+    ]
+  },
+  {
+    "id": "ev-xi1-1",
+    "luYearId": "xi-1",
+    "jingText": "狄灭邢，邢人出奔。",
+    "zuoComment": "邢溃，邢人出奔。二月，邢迁于陈仪，以邢之亡，不救之罪，齐桓公迁邢于夷仪。",
+    "category": "battle",
+    "stateIds": [
+      "xing"
+    ],
+    "placeIds": [
+      "xingguo"
+    ],
+    "personIds": [],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi1-2",
+    "luYearId": "xi-1",
+    "jingText": "夏，公会齐侯、宋公、曹伯救邢。",
+    "zuoComment": "齐桓公率诸侯救邢，将邢迁于夷仪，重建邢国，此为「存三国」之一。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "lu",
+      "song",
+      "cao"
+    ],
+    "placeIds": [
+      "xingguo"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "lu-xi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公元年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi2-2",
+    "luYearId": "xi-2",
+    "jingText": "冬，楚人伐郑，郑告急于齐。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "zheng",
+      "qi"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "chu-chengwang",
+      "zheng-wengong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二年",
+    "certainty": "high",
+    "territoryChanges": [],
+    "zuoComment": "僖公二年冬，楚人伐郑，郑告急于齐，齐不及救。此为楚北扩态势之一环，郑处于楚齐拉锯之中。虞城归晋属僖公五年事（ev-xi5-2），不在本年。"
+  },
+  {
+    "id": "ev-xi2-3",
+    "luYearId": "xi-2",
+    "jingText": "夏，诸侯城楚丘。虢灭。晋献公伐虞，虞公不听百里奚谏而假虞道，晋遂灭虢，返师灭虞。",
+    "zuoComment": "宫之奇谏虞公，「辅车相依，唇亡齿寒」；公不听，晋灭虢，师还，袭虞，执虞公。",
+    "category": "battle",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "yong"
+    ],
+    "personIds": [
+      "jin-xiangong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二年（虢虞之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi3-1",
+    "luYearId": "xi-3",
+    "jingText": "齐侯与蔡姬乘舟，荡公。公惧，变色，禁之不可，公怒，归蔡姬，弗绝。蔡亦嫁其女。",
+    "zuoComment": "因此事，齐桓公伐蔡，蔡侯肉袒求和，转而伐楚。",
+    "category": "diplomatic",
+    "stateIds": [
+      "qi",
+      "cai"
+    ],
+    "placeIds": [
+      "wanqiu"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公三年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi4-1",
+    "luYearId": "xi-4",
+    "jingText": "夏，诸侯伐楚，次于陉。楚屈完来盟，盟于召陵。",
+    "zuoComment": "管仲数楚：「尔贡包茅不入，王祭不共，无以缩酒，寡人是征。昭王南征而不复，寡人是问。」楚对曰：「贡之不入，寡君之罪也，敢不共给？昭王之不复，君其问诸水滨！」遂盟于召陵。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "lu",
+      "song",
+      "chen",
+      "wei",
+      "zheng",
+      "cao",
+      "cai",
+      "chu"
+    ],
+    "placeIds": [
+      "zhaoling",
+      "fangcheng"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "guan-zhong",
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公四年（召陵之盟）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi5-2",
+    "luYearId": "xi-5",
+    "jingText": "晋侯假道于虞以伐虢，灭虢，师还，袭虞，遂灭之。",
+    "zuoComment": "虞虢之战，百里奚（蹇叔之论亦在此后）。晋灭虞后，得百里奚，其后秦穆公以五羖大夫之价赎之为相。",
+    "category": "battle",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "yucheng"
+    ],
+    "personIds": [
+      "jin-xiangong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公五年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "yucheng",
+        "fromStateId": null,
+        "toStateId": "jin",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-xi5-3",
+    "luYearId": "xi-5",
+    "jingText": "秋，楚人灭弦，弦子奔黄。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "xuan"
+    ],
+    "placeIds": [
+      "xuandu",
+      "huangdu"
+    ],
+    "personIds": [
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公五年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "xuandu",
+        "fromStateId": "xuan",
+        "toStateId": "chu",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-xi6-1",
+    "luYearId": "xi-6",
+    "jingText": "冬，楚人伐郑，围新城，郑申侯殉于新城。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "chu-chengwang",
+      "zheng-wengong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi7-1",
+    "luYearId": "xi-7",
+    "jingText": "夏，小邾子来朝。秋，公会齐侯、宋公、陈侯、卫侯、郑伯、许男、曹伯盟于宁母。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "lu",
+      "song",
+      "chen",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [
+      "guan"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "lu-xi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi8-1",
+    "luYearId": "xi-8",
+    "jingText": "晋里克弑奚齐。",
+    "zuoComment": "晋献公薨，骊姬之乱：里克趁丧杀骊姬所立奚齐，荀息殉之；随后卓子亦被杀，晋国大乱，夷吾（晋惠公）借秦力入晋。同年楚人伐郑并于成周，但两事不应并为一条。",
+    "category": "succession",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [],
+    "personIds": [
+      "jin-xiangong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi9-2",
+    "luYearId": "xi-9",
+    "jingText": "冬，晋里克弑其君卓子及其大夫荀息。",
+    "zuoComment": "晋献公卒，骊姬之子奚齐、卓子先后被弑，荀息自杀。夷吾（晋惠公）由梁入晋，秦穆公为之保驾。",
+    "category": "succession",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [
+      "jin-huigong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi10-1",
+    "luYearId": "xi-10",
+    "jingText": "晋里克杀晋大夫丕郑父。秦人、晋人战于河曲。",
+    "zuoComment": "晋惠公立，诸臣多叛。秦晋韩原之战前奏，双方已有摩擦。惠公以秦力即位，却拒割河西之地，秦晋关系恶化。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qin"
+    ],
+    "placeIds": [
+      "hanyuan"
+    ],
+    "personIds": [
+      "jin-huigong",
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公十年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi11-1",
+    "luYearId": "xi-11",
+    "jingText": "楚人伐郑，郑人求救于诸侯，无功而返。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "chu-chengwang",
+      "zheng-wengong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公十一年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi12-1",
+    "luYearId": "xi-12",
+    "jingText": "秋，楚人灭黄。",
+    "zuoComment": "黄为嬴姓小国，亲齐，屡次参与中原会盟。楚灭黄后，江一时孤立，中原诸国为之震动。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "huang"
+    ],
+    "placeIds": [
+      "huangdu"
+    ],
+    "personIds": [
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公十二年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "huangdu",
+        "fromStateId": "huang",
+        "toStateId": "chu",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-xi13-1",
+    "luYearId": "xi-13",
+    "jingText": "冬，公如齐纳币。晋饥，请籴于秦，秦输粟于晋，史称「泛舟之役」。",
+    "zuoComment": "秦穆公怜晋民之苦，不以君间，运粟救晋，此为著名德政。",
+    "category": "diplomatic",
+    "stateIds": [
+      "lu",
+      "qi",
+      "jin",
+      "qin"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "lu-xi",
+      "jin-huigong",
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公十三年（泛舟之役）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi14-1",
+    "luYearId": "xi-14",
+    "jingText": "秦饥，晋拒不輸粟，秦穆公大怒，将伐晋。",
+    "zuoComment": "《左传》：秦饥请籴于晋，晋不与，秦穆公将伐晋。晋大夫庆郑劝告无效，遂有韩原之战。",
+    "category": "diplomatic",
+    "stateIds": [
+      "qin",
+      "jin"
+    ],
+    "placeIds": [
+      "hanyuan"
+    ],
+    "personIds": [
+      "jin-huigong",
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公十四年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi15-2",
+    "luYearId": "xi-15",
+    "jingText": "秋，秦晋战于韩，获晋侯以归。晋侯许割河西之地，秦遂归之。",
+    "zuoComment": "韩原之战，晋惠公马陷泥中被俘；晋穆姬登台以为殉，秦穆公乃归晋侯，晋割河西五城予秦，太子圉质秦。",
+    "category": "battle",
+    "stateIds": [
+      "qin",
+      "jin"
+    ],
+    "placeIds": [
+      "hanyuan"
+    ],
+    "personIds": [
+      "jin-huigong",
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公十五年（韩原之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi16-1",
+    "luYearId": "xi-16",
+    "jingText": "公会齐侯、宋公、陈侯、卫侯、郑伯、许男、邢侯、曹伯盟于淮。",
+    "category": "assembly",
+    "stateIds": [
+      "qi",
+      "lu",
+      "song",
+      "chen",
+      "wei",
+      "zheng",
+      "cao"
+    ],
+    "placeIds": [
+      "guan"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "lu-xi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公十六年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi17-1",
+    "luYearId": "xi-17",
+    "jingText": "秋，齐桓公卒。公子无亏入，五公子争立，齐大乱。",
+    "zuoComment": "管仲既没，易牙、竖刁乱政，桓公病中诸公子争立。桓公薨，停尸六十七日不葬，蛆出于户。诸公子各率其众争位，宋人立公子昭（孝公）。",
+    "category": "succession",
+    "stateIds": [
+      "qi"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "qi-huangong",
+      "qi-xiao-bai-after"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公十七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi18-1",
+    "luYearId": "xi-18",
+    "jingText": "秋，宋公、曹伯、卫人、邾人伐齐。冬，楚人伐宋，宋告急于晋，晋平二者。",
+    "zuoComment": "宋桓公（公子昭）即位后，借诸侯之力定齐内乱，纳齐孝公。宋由此图霸，野心渐显。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "song",
+      "wei",
+      "cao"
+    ],
+    "placeIds": [
+      "linzi"
+    ],
+    "personIds": [
+      "qi-xiao-bai-after",
+      "song-xianggong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公十八年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi19-1",
+    "luYearId": "xi-19",
+    "jingText": "宋人执滕子、鄫子以用。宋人伐曹，取须句，复归之。",
+    "zuoComment": "宋襄公欲图霸，以蛮夷之礼行人牲，执滕鄫之君以为牲祭，鲁人深以为非。",
+    "category": "ritual",
+    "stateIds": [
+      "song",
+      "lu"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [
+      "song-xianggong",
+      "song-mu-yi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公十九年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi20-1",
+    "luYearId": "xi-20",
+    "jingText": "宋人伐郑，楚人救郑。楚人使宋人归曹地，宋不从。",
+    "category": "battle",
+    "stateIds": [
+      "song",
+      "zheng",
+      "chu"
+    ],
+    "placeIds": [
+      "xinzheng",
+      "shangqiu"
+    ],
+    "personIds": [
+      "song-xianggong",
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi21-1",
+    "luYearId": "xi-21",
+    "jingText": "宋公与楚子、陈侯、蔡侯、郑伯、许男会于盂。楚子执宋公以伐宋，诸侯请于楚，楚人归宋公。",
+    "zuoComment": "宋襄公召诸侯于盂，欲以「仁义」称霸，不带兵车，楚子执宋公。公子目夷先后谏无用，宋国几乱。",
+    "category": "assembly",
+    "stateIds": [
+      "song",
+      "chu",
+      "chen",
+      "cai",
+      "zheng"
+    ],
+    "placeIds": [
+      "sheng",
+      "shangqiu"
+    ],
+    "personIds": [
+      "song-xianggong",
+      "song-mu-yi",
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十一年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi22-1",
+    "luYearId": "xi-22",
+    "jingText": "冬十一月己巳朔，宋公及楚人战于泓，宋师败绩。",
+    "zuoComment": "楚师涉泓，宋公欲击之，目夷谏曰：「彼众我寡，击其未成列。」公不听，楚师毕济，宋公又不击，大败，宋公伤股，国人皆怨，公曰：「君子不重伤，不擒二毛。」目夷曰：「战而不胜，何若二毛为？若爱二毛，如勿战何？」",
+    "category": "battle",
+    "stateIds": [
+      "song",
+      "chu"
+    ],
+    "placeIds": [
+      "hong"
+    ],
+    "personIds": [
+      "song-xianggong",
+      "song-mu-yi",
+      "chu-chengwang"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十二年（泓之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi23-1",
+    "luYearId": "xi-23",
+    "jingText": "晋公子重耳过曹、宋、郑，至楚，楚成王礼之，问曰：「公子若返晋国，何以报寡人？」公子曰：「若以君之灵，得反晋国，晋楚治兵，遇于中原，其辟君三舍。」",
+    "zuoComment": "重耳流亡至楚，楚王礼遇，重耳许以「退避三舍」。后城濮之战晋军果退九十里，楚子玉不退，遂大败。",
+    "category": "diplomatic",
+    "stateIds": [
+      "jin",
+      "chu"
+    ],
+    "placeIds": [
+      "chengpu",
+      "ying"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "chu-chengwang"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十三年（重耳过楚）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi23-2",
+    "luYearId": "xi-23",
+    "jingText": "夏，宋公兹父卒。",
+    "category": "succession",
+    "stateIds": [
+      "song"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [
+      "song-xianggong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十三年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi24-2",
+    "luYearId": "xi-24",
+    "jingText": "秦穆公送重耳归晋，重耳杀晋怀公圉，即位为晋文公。",
+    "zuoComment": "秦穆公以兵送重耳入晋，晋人杀圉于高梁，重耳即位。此即晋文公元年。",
+    "category": "succession",
+    "stateIds": [
+      "jin",
+      "qin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "jin-huaigong",
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十四年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi24-3",
+    "luYearId": "xi-24",
+    "jingText": "晋侯赏从亡者，介之推不言禄，其母从而隐。晋侯求之不得，以绵上为之田。",
+    "zuoComment": "介之推割股奉君、功成身退，后世「寒食节」缘起。",
+    "category": "other",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "jiang"
+    ],
+    "personIds": [
+      "jin-chonger"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十四年（介之推）",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi25-1",
+    "luYearId": "xi-25",
+    "jingText": "冬，晋侯伐原，克之，以畀赵衰，赵衰辞，以赵为赵衰邑。晋侯复卫侯，迁温之狄。",
+    "category": "battle",
+    "stateIds": [
+      "jin"
+    ],
+    "placeIds": [
+      "wen",
+      "jiang"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "zhao-cui"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi25-2",
+    "luYearId": "xi-25",
+    "jingText": "晋侯请隧于王，王弗许。",
+    "zuoComment": "晋文公欲以王礼隧葬，周王不许。晋文公虽霸，仍受周礼约束。",
+    "category": "ritual",
+    "stateIds": [
+      "jin",
+      "zhou"
+    ],
+    "placeIds": [
+      "wangcheng"
+    ],
+    "personIds": [
+      "jin-chonger"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十五年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi26-1",
+    "luYearId": "xi-26",
+    "jingText": "二十有六年春王正月己未，公会莒子、卫甯速盟于向。",
+    "category": "assembly",
+    "stateIds": [
+      "lu",
+      "ji2",
+      "wei"
+    ],
+    "placeIds": [
+      "xiang"
+    ],
+    "personIds": [
+      "lu-xi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十六年",
+    "certainty": "high",
+    "zuoComment": "齐屡侵鲁西鄙背景下，鲁与莒、卫在向会盟。"
+  },
+  {
+    "id": "ev-xi26-2",
+    "luYearId": "xi-26",
+    "jingText": "齐人侵我西鄙。公会宋公、陈侯、卫侯、郑伯于垂陇，谋救许。",
+    "category": "battle",
+    "stateIds": [
+      "qi",
+      "lu"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-xi"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十六年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi27-1",
+    "luYearId": "xi-27",
+    "jingText": "楚人围宋，宋告急于晋，晋文公作三军，谋救宋以报旧德。",
+    "zuoComment": "晋文公欲救宋以报宋曾礼遇之旧恩，又欲借此图霸中原。先轸、狐偃定谋：伐曹、卫以解宋之围，使楚分兵。",
+    "category": "battle",
+    "stateIds": [
+      "chu",
+      "song",
+      "jin"
+    ],
+    "placeIds": [
+      "shangqiu"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "hu-yan",
+      "xian-zhen",
+      "chu-ziyu"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十七年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi28-4",
+    "luYearId": "xi-28",
+    "jingText": "晋侯执曹伯，分曹卫之田以与宋人。晋师三舍，楚子玉不退，遂战于城濮。",
+    "zuoComment": "城濮之战：晋军「退避三舍」九十里，楚子玉率军追击，晋将先轸设伏，大败楚军。子玉引以为耻，自杀。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "chu",
+      "song",
+      "qi",
+      "qin"
+    ],
+    "placeIds": [
+      "chengpu",
+      "caodu",
+      "shangqiu"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "hu-yan",
+      "xian-zhen",
+      "chu-ziyu"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十八年（城濮之战详述）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi28-5",
+    "luYearId": "xi-28",
+    "jingText": "夏，晋侯献楚俘于王。王在践土，诸侯朝焉，曰践土之盟。",
+    "zuoComment": "践土之盟：晋文公以诸侯朝周天子，天子命晋侯为伯（霸主），晋霸正式确立。",
+    "category": "assembly",
+    "stateIds": [
+      "jin",
+      "zhou",
+      "lu",
+      "qi",
+      "song",
+      "wei",
+      "chen",
+      "cao",
+      "zheng"
+    ],
+    "placeIds": [
+      "jiantu",
+      "wangcheng"
+    ],
+    "personIds": [
+      "jin-chonger"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十八年（践土之盟）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi29-1",
+    "luYearId": "xi-29",
+    "jingText": "卫侯郑复归于卫。",
+    "category": "succession",
+    "stateIds": [
+      "wei",
+      "jin"
+    ],
+    "placeIds": [
+      "chengqiu"
+    ],
+    "personIds": [
+      "jin-chonger"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公二十九年",
+    "certainty": "high",
+    "zuoComment": "晋文公主盟期间，卫成公郑（曾被晋拘押）获释，经晋许可复归卫国，卫在城濮之战后局势稳定。"
+  },
+  {
+    "id": "ev-xi29-2",
+    "luYearId": "xi-29",
+    "jingText": "夏，晋人败楚师于桐，晋文公主盟，郑亦来服。晋人执郑伯，郑求盟，晋许之。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "chu",
+      "zheng"
+    ],
+    "placeIds": [
+      "chengpu"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "zheng-wengong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公二十九年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi30-1",
+    "luYearId": "xi-30",
+    "jingText": "晋人、秦人围郑，以其无礼于晋，且贰于楚也。郑烛之武夜见秦伯，说退秦师。",
+    "zuoComment": "烛之武说秦穆公：「越国以鄙远，君知其难也。若舍郑以为东道主，行李之往来，共其乏困，君亦无所害。」秦穆公听之，罢兵，并派兵戍郑，晋师亦退。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qin",
+      "zheng"
+    ],
+    "placeIds": [
+      "xinzheng"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "qin-mugong",
+      "zheng-wengong",
+      "zhu-zhi-wu"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公三十年（烛之武退秦师）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi31-1",
+    "luYearId": "xi-31",
+    "jingText": "夏四月，四卜郊，不从，乃免牲。小邾子来朝。晋文公作三行以御戎。",
+    "category": "ritual",
+    "stateIds": [
+      "lu",
+      "jin"
+    ],
+    "placeIds": [
+      "qufu"
+    ],
+    "personIds": [
+      "lu-xi",
+      "jin-chonger"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公三十一年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi31-2",
+    "luYearId": "xi-31",
+    "jingText": "狄围卫，卫迁，卫侯在楚丘，告难于诸侯。",
+    "category": "battle",
+    "stateIds": [
+      "wei"
+    ],
+    "placeIds": [
+      "chuqiu"
+    ],
+    "personIds": [],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公三十一年",
+    "certainty": "medium"
+  },
+  {
+    "id": "ev-xi32-1",
+    "luYearId": "xi-32",
+    "jingText": "冬，晋文公薨。秦伯使蹇叔、百里奚之子袭郑，蹇叔哭之。",
+    "zuoComment": "秦穆公趁晋文公新丧，命孟明视等三帅袭郑；蹇叔曰：「千里而袭人，难以成功。」三帅不听，出师。",
+    "category": "succession",
+    "stateIds": [
+      "jin",
+      "qin",
+      "zheng"
+    ],
+    "placeIds": [
+      "jiang",
+      "xinzheng"
+    ],
+    "personIds": [
+      "jin-chonger",
+      "qin-mugong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公三十二年",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi32-2",
+    "luYearId": "xi-32",
+    "jingText": "秦灭滑，遂还。",
+    "zuoComment": "秦师至滑，见郑国已有备，遂灭滑国而归。",
+    "category": "battle",
+    "stateIds": [
+      "qin",
+      "hua"
+    ],
+    "placeIds": [
+      "huadu"
+    ],
+    "personIds": [
+      "qin-mugong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公三十二年",
+    "certainty": "high",
+    "territoryChanges": [
+      {
+        "placeId": "huadu",
+        "fromStateId": "hua",
+        "toStateId": "qin",
+        "changeType": "annex"
+      }
+    ]
+  },
+  {
+    "id": "ev-xi33-1",
+    "luYearId": "xi-33",
+    "jingText": "春，秦师过周北门，左右免胄而下，超乘者三百乘。王孙满曰：「秦师轻而无礼，必败。」",
+    "zuoComment": "秦师过周而不敬，王孙满以礼法论之，预言秦必败。秦军骄横，轻敌。",
+    "category": "other",
+    "stateIds": [
+      "qin",
+      "zhou"
+    ],
+    "placeIds": [
+      "wangcheng",
+      "xiao"
+    ],
+    "personIds": [
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公三十三年（秦师过周）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi33-2",
+    "luYearId": "xi-33",
+    "jingText": "夏四月辛巳，晋人及姜戎败秦师于殽，获百里孟明视、西乞术、白乙丙以归。",
+    "zuoComment": "先轸帅师，伏击于殽山两陵之间，秦军覆灭，三帅全俘。晋文姜请之，先轸怒，晋襄公从之，三帅获释。先轸深以为恨，后战死以殉。",
+    "category": "battle",
+    "stateIds": [
+      "jin",
+      "qin"
+    ],
+    "placeIds": [
+      "xiao"
+    ],
+    "personIds": [
+      "xian-zhen",
+      "qin-mugong"
+    ],
+    "sourceType": "jing",
+    "sourceRef": "《春秋》僖公三十三年（殽之战）",
+    "certainty": "high"
+  },
+  {
+    "id": "ev-xi33-3",
+    "luYearId": "xi-33",
+    "jingText": "秋，晋人释三帅，秦穆公素服郊次，以誓于众。",
+    "zuoComment": "秦穆公自责：「孤以未熟于谋，以辱二三子，孤之过也，是孤之罪。」发秦伯任好之誓，史称「秦誓」。",
+    "category": "ritual",
+    "stateIds": [
+      "qin"
+    ],
+    "placeIds": [
+      "yong"
+    ],
+    "personIds": [
+      "qin-mugong"
+    ],
+    "sourceType": "zuozhuan",
+    "sourceRef": "《左传》僖公三十三年（秦誓）",
+    "certainty": "high"
+  }
+]

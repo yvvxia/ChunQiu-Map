@@ -1,0 +1,791 @@
+[
+  {
+    "id": "lu",
+    "name": "鲁",
+    "rank": "hou",
+    "founder": "周公旦",
+    "clan": "姬",
+    "capitalId": "qufu",
+    "color": "#8B6914",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          116.5,
+          37.2
+        ],
+        [
+          118.8,
+          37.2
+        ],
+        [
+          118.8,
+          34.5
+        ],
+        [
+          116.5,
+          34.5
+        ],
+        [
+          116.5,
+          37.2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "qi",
+    "name": "齐",
+    "rank": "hou",
+    "founder": "太公望（吕尚）",
+    "clan": "姜",
+    "capitalId": "linzi",
+    "color": "#4A7C59",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          116.5,
+          38.5
+        ],
+        [
+          121,
+          38.5
+        ],
+        [
+          121,
+          36
+        ],
+        [
+          118.8,
+          36
+        ],
+        [
+          118.8,
+          37.2
+        ],
+        [
+          116.5,
+          37.2
+        ],
+        [
+          116.5,
+          38.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "wei",
+    "name": "卫",
+    "rank": "hou",
+    "founder": "康叔封",
+    "clan": "姬",
+    "capitalId": "chengqiu",
+    "color": "#5B4A8A",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          113.5,
+          36.8
+        ],
+        [
+          116.5,
+          36.8
+        ],
+        [
+          116.5,
+          34.8
+        ],
+        [
+          113.5,
+          34.8
+        ],
+        [
+          113.5,
+          36.8
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "zheng",
+    "name": "郑",
+    "rank": "bo",
+    "founder": "郑桓公",
+    "clan": "姬",
+    "capitalId": "xinzheng",
+    "color": "#A0522D",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          113,
+          35
+        ],
+        [
+          115,
+          35
+        ],
+        [
+          115,
+          33.5
+        ],
+        [
+          113,
+          33.5
+        ],
+        [
+          113,
+          35
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "song",
+    "name": "宋",
+    "rank": "gong",
+    "founder": "微子启",
+    "clan": "子（殷裔）",
+    "capitalId": "shangqiu",
+    "color": "#6B2D6B",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          115,
+          35.2
+        ],
+        [
+          117.5,
+          35.2
+        ],
+        [
+          117.5,
+          33
+        ],
+        [
+          115,
+          33
+        ],
+        [
+          115,
+          35.2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "chen",
+    "name": "陈",
+    "rank": "hou",
+    "founder": "胡公满",
+    "clan": "妫",
+    "capitalId": "wanqiu",
+    "color": "#2E7D7D",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          114.5,
+          34
+        ],
+        [
+          116.5,
+          34
+        ],
+        [
+          116.5,
+          32.5
+        ],
+        [
+          114.5,
+          32.5
+        ],
+        [
+          114.5,
+          34
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cai",
+    "name": "蔡",
+    "rank": "hou",
+    "founder": "蔡叔度",
+    "clan": "姬",
+    "capitalId": "shangcai",
+    "color": "#8B4513",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          113.5,
+          33.5
+        ],
+        [
+          115.5,
+          33.5
+        ],
+        [
+          115.5,
+          32
+        ],
+        [
+          113.5,
+          32
+        ],
+        [
+          113.5,
+          33.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "chu",
+    "name": "楚",
+    "rank": "zi",
+    "founder": "熊绎",
+    "clan": "芈",
+    "capitalId": "ying",
+    "color": "#C0392B",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          109,
+          33.5
+        ],
+        [
+          116,
+          33.5
+        ],
+        [
+          116,
+          29
+        ],
+        [
+          109,
+          29
+        ],
+        [
+          109,
+          33.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "jin",
+    "name": "晋",
+    "rank": "hou",
+    "founder": "唐叔虞",
+    "clan": "姬",
+    "capitalId": "jiang",
+    "color": "#1A5276",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          110,
+          40
+        ],
+        [
+          114.5,
+          40
+        ],
+        [
+          114.5,
+          35
+        ],
+        [
+          110,
+          35
+        ],
+        [
+          110,
+          40
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "qin",
+    "name": "秦",
+    "rank": "bo",
+    "founder": "秦非子",
+    "clan": "嬴",
+    "capitalId": "yong",
+    "color": "#7D6608",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          104,
+          38
+        ],
+        [
+          110,
+          38
+        ],
+        [
+          110,
+          33
+        ],
+        [
+          104,
+          33
+        ],
+        [
+          104,
+          38
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "zhou",
+    "name": "周（王室）",
+    "rank": "wang",
+    "founder": "周武王",
+    "clan": "姬",
+    "capitalId": "wangcheng",
+    "color": "#F0C040",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          111,
+          35.5
+        ],
+        [
+          114,
+          35.5
+        ],
+        [
+          114,
+          34
+        ],
+        [
+          111,
+          34
+        ],
+        [
+          111,
+          35.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "yan",
+    "name": "燕",
+    "rank": "hou",
+    "founder": "召公奭",
+    "clan": "姬",
+    "capitalId": "ji",
+    "color": "#117A65",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          114.5,
+          41.5
+        ],
+        [
+          119,
+          41.5
+        ],
+        [
+          119,
+          38.5
+        ],
+        [
+          114.5,
+          38.5
+        ],
+        [
+          114.5,
+          41.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "cao",
+    "name": "曹",
+    "rank": "bo",
+    "founder": "曹叔振铎",
+    "clan": "姬",
+    "capitalId": "tao",
+    "color": "#6E2F1A",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          115,
+          36
+        ],
+        [
+          116.5,
+          36
+        ],
+        [
+          116.5,
+          34.8
+        ],
+        [
+          115,
+          34.8
+        ],
+        [
+          115,
+          36
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "wu",
+    "name": "吴",
+    "rank": "zi",
+    "founder": "太伯",
+    "clan": "姬",
+    "capitalId": "gushu",
+    "color": "#1F618D",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          118.5,
+          33
+        ],
+        [
+          122,
+          33
+        ],
+        [
+          122,
+          30
+        ],
+        [
+          118.5,
+          30
+        ],
+        [
+          118.5,
+          33
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "yue",
+    "name": "越",
+    "rank": "unknown",
+    "clan": "芈（存疑）",
+    "capitalId": "guiji",
+    "color": "#884EA0",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          119.5,
+          31
+        ],
+        [
+          122.5,
+          31
+        ],
+        [
+          122.5,
+          28
+        ],
+        [
+          119.5,
+          28
+        ],
+        [
+          119.5,
+          31
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "ji2",
+    "name": "纪",
+    "rank": "hou",
+    "founder": "太公之裔（说法存疑）",
+    "clan": "姜",
+    "capitalId": "jiying",
+    "color": "#9B7B2A",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          118.4,
+          37.4
+        ],
+        [
+          119.4,
+          37.4
+        ],
+        [
+          119.4,
+          36.3
+        ],
+        [
+          118.4,
+          36.3
+        ],
+        [
+          118.4,
+          37.4
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "xing",
+    "name": "邢",
+    "rank": "hou",
+    "founder": "周公之后",
+    "clan": "姬",
+    "capitalId": "xingguo",
+    "color": "#6B5B95",
+    "certainty": "high",
+    "territory": [
+      [
+        [
+          113.8,
+          37.5
+        ],
+        [
+          115,
+          37.5
+        ],
+        [
+          115,
+          36.6
+        ],
+        [
+          113.8,
+          36.6
+        ],
+        [
+          113.8,
+          37.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "sui",
+    "name": "遂",
+    "rank": "nan",
+    "founder": "太昊后裔（风姓）",
+    "clan": "风",
+    "capitalId": "suidu",
+    "color": "#8B4040",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          116.4,
+          36.2
+        ],
+        [
+          117.2,
+          36.2
+        ],
+        [
+          117.2,
+          35.6
+        ],
+        [
+          116.4,
+          35.6
+        ],
+        [
+          116.4,
+          36.2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "jiang",
+    "name": "江",
+    "rank": "hou",
+    "founder": "伯益之后（嬴姓）",
+    "clan": "嬴",
+    "capitalId": "jiangdu",
+    "color": "#7A5C8A",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          113.5,
+          32.2
+        ],
+        [
+          114.5,
+          32.2
+        ],
+        [
+          114.5,
+          31.4
+        ],
+        [
+          113.5,
+          31.4
+        ],
+        [
+          113.5,
+          32.2
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "huang",
+    "name": "黄",
+    "rank": "hou",
+    "founder": "伯益之后（嬴姓）",
+    "clan": "嬴",
+    "capitalId": "huangdu",
+    "color": "#A06040",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          114.9,
+          31.9
+        ],
+        [
+          115.9,
+          31.9
+        ],
+        [
+          115.9,
+          31.1
+        ],
+        [
+          114.9,
+          31.1
+        ],
+        [
+          114.9,
+          31.9
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "hua",
+    "name": "滑",
+    "rank": "bo",
+    "founder": "姬姓小国",
+    "clan": "姬",
+    "capitalId": "huadu",
+    "color": "#8080A0",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          112,
+          34.8
+        ],
+        [
+          113,
+          34.8
+        ],
+        [
+          113,
+          34.2
+        ],
+        [
+          112,
+          34.2
+        ],
+        [
+          112,
+          34.8
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "xuan",
+    "name": "弦",
+    "rank": "nan",
+    "founder": "隗姓小国",
+    "clan": "隗",
+    "capitalId": "xuandu",
+    "color": "#6B9070",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          114,
+          31.5
+        ],
+        [
+          115,
+          31.5
+        ],
+        [
+          115,
+          31
+        ],
+        [
+          114,
+          31
+        ],
+        [
+          114,
+          31.5
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "xu-state",
+    "name": "许",
+    "rank": "nan",
+    "founder": "姜姓许国",
+    "clan": "姜",
+    "capitalId": "xu",
+    "color": "#9C7A3A",
+    "certainty": "medium",
+    "territory": [
+      [
+        [
+          113.3,
+          34.3
+        ],
+        [
+          114.2,
+          34.3
+        ],
+        [
+          114.2,
+          33.7
+        ],
+        [
+          113.3,
+          33.7
+        ],
+        [
+          113.3,
+          34.3
+        ]
+      ]
+    ]
+  }
+]
