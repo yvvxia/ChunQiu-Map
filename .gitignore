@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.vite/
+
+# local / secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs / cache
+*.log
+.npm-cache/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
