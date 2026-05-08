@@ -36,10 +36,8 @@ export function MapModeToolbar() {
 
   return (
     <div className="toolbar-root">
-      {/* Logo */}
       <div className="toolbar-logo">春秋</div>
 
-      {/* 地图模式 */}
       <span className="toolbar-section-label">地图</span>
       {MODES.map(({ mode, icon }) => (
         <button
@@ -53,7 +51,6 @@ export function MapModeToolbar() {
         </button>
       ))}
 
-      {/* 面板 tab — 桌面端保留在侧栏，手机端由底部栏代替（CSS 控制显隐） */}
       <div className="toolbar-panel-section">
         <div className="divider" />
         <span className="toolbar-section-label">面板</span>

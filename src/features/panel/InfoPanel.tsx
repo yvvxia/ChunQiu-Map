@@ -36,7 +36,6 @@ export function InfoPanel() {
 
   return (
     <div className={panelClass}>
-      {/* 桌面折叠按钮 */}
       <button
         className="panel-collapse-btn"
         onClick={toggleRightPanel}
@@ -47,7 +46,6 @@ export function InfoPanel() {
         {rightPanelCollapsed ? <ChevronLeft size={15} /> : <ChevronRight size={15} />}
       </button>
 
-      {/* 手机端关闭按钮（仅手机端可见） */}
       <button
         className="panel-mobile-close-btn"
         onClick={() => setMobilePanelOpen(false)}
@@ -56,9 +54,7 @@ export function InfoPanel() {
         <X size={17} />
       </button>
 
-      {/* 以下内容在收起时淡出 */}
       <div className="panel-inner">
-      {/* 年份信息头（手机端由顶部徽章代替，CSS 隐藏） */}
       <div
         className="panel-year-header"
         style={{

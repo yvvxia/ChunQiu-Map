@@ -31,17 +31,13 @@ export function App() {
         {/* 地图区域 */}
         <div style={{ flex: 1, position: 'relative', overflow: 'hidden' }}>
           <MapCanvas />
-          {/* 手机端蒙层：点击覆盖层外侧关闭信息栏 */}
           <MobileBackdrop />
         </div>
         <InfoPanel />
       </div>
 
-      {/* 底部时间轴（桌面端）*/}
       <TimelineSlider />
-      {/* 手机端底部面板导航（桌面端 CSS 隐藏） */}
       <MobilePanelBar />
-      {/* 手机端专用：顶部年份徽章 + 右侧竖向时间轴（桌面端 CSS 隐藏） */}
       <MobileTimeline />
     </div>
   )

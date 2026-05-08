@@ -8,7 +8,6 @@ const PANEL_TABS = [
   { tab: 'stats'  as const, icon: <BarChart3 size={22} strokeWidth={1.8} />, label: '统计' },
 ]
 
-/** 手机端底部面板分区导航栏。桌面端由 CSS 隐藏，不影响桌面布局。*/
 export function MobilePanelBar() {
   const panelTab          = useAppStore(s => s.panelTab)
   const setPanelTab       = useAppStore(s => s.setPanelTab)

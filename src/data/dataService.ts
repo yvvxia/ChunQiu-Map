@@ -13,10 +13,8 @@ export const ALL_PLACES = placesRaw as Place[]
 export const ALL_PERSONS = personsRaw as Person[]
 export const ALL_RELATIONS = relationsRaw as Relation[]
 
-// 春秋完整时间轴（前722 ~ 前481）：已有年份沿用真实条目，缺失年份自动占位，便于后续扩充。
+// 前722–前481 全轴：缺年占位
 export const ALL_LU_YEARS: LuYear[] = buildExpandedLuYears(RAW_LU_YEARS)
-
-// ── 查询辅助 ──────────────────────────────────────────────────────────────────
 
 export function getStateById(id: string): State | undefined {
   return ALL_STATES.find(s => s.id === id)
@@ -79,7 +77,7 @@ export function globalSearch(query: string): {
   }
 }
 
-/** 获取某年度该国家相关的关系（用于外交高亮） */
+/** 某国在某年的关系 */
 export function getRelationsForStateInYear(stateId: string, luYearId: string): Relation[] {
   return getRelationsForYear(luYearId).filter(
     r => r.fromId === stateId || r.toId === stateId

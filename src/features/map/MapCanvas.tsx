@@ -26,7 +26,6 @@ export function MapCanvas() {
   const selectedEntityType = useAppStore(s => s.selectedEntityType)
   const selectEntity = useAppStore(s => s.selectEntity)
 
-  // ── 初始化地图 ─────────────────────────────────────────────────────────────
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
@@ -35,7 +34,7 @@ export function MapCanvas() {
       style: BASE_STYLE_URL,
       center: MAP_CENTER,
       zoom: MAP_ZOOM,
-      pitch: 0,           // 初始平视；随缩放动态倾斜（见下方 zoom 事件）
+      pitch: 0,
       bearing: 0,
       minZoom: 3,
       maxZoom: 9.5,
@@ -43,7 +42,6 @@ export function MapCanvas() {
       dragRotate: false,
       touchPitch: false,
     })
-    // 在地理数据可视范围外再各扩 4° 给拖动留余量，不影响图层过滤逻辑
     map.setMaxBounds([
       [HAN18_BOUNDS.west - 4, HAN18_BOUNDS.south - 4],
       [HAN18_BOUNDS.east + 4, HAN18_BOUNDS.north + 4],
@@ -55,20 +53,16 @@ export function MapCanvas() {
     map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right')
 
     map.on('load', () => {
-      // DEM 源 + hillshade 层必须在 refreshLayers 之前注册，保证 hillshade 在城市点之下
       setupDem(map)
       applyHistoricalBasemapMask(map)
       refreshLayers(map, mapMode, currentLuYearId, selectedEntityId, selectedEntityType)
-      // 初始模式若为地形图，立即激活地形
       applyTerrainMode(map, mapMode === 'terrain')
 
-      // 滚轮每格缩放幅度放大（默认太细，约 3× 加速）
       map.scrollZoom.setWheelZoomRate(1 / 150)
 
-      // 动态俯视角：大范围平视，放大到城市级别才开始倾斜
       const updatePitch = () => {
-        const ZOOM_START = 6.8   // 低于此缩放完全平视（约省/州级别）
-        const ZOOM_FULL  = 8.5   // 达到此缩放时达最大倾角（约城市级别）
+        const ZOOM_START = 6.8
+        const ZOOM_FULL  = 8.5
         const MAX_PITCH  = 46
         const z = map.getZoom()
         const t = Math.max(0, Math.min(1, (z - ZOOM_START) / (ZOOM_FULL - ZOOM_START)))
@@ -78,20 +72,16 @@ export function MapCanvas() {
       map.on('zoom', updatePitch)
       updatePitch()
 
-      // 点击城市点
       map.on('click', 'city-circle', e => {
         const props = e.features?.[0]?.properties as Record<string, unknown> | undefined
         if (!props) return
         if (props['isCapital'] && props['stateId']) {
-          // 都城 → 打开国家信息卡
           selectEntity(props['stateId'] as string, 'state')
         } else {
-          // 普通城邑 → 打开地点信息卡
           selectEntity(props['id'] as string, 'place')
         }
       })
 
-      // 光标样式
       map.on('mouseenter', 'city-circle', () => {
         map.getCanvas().style.cursor = 'pointer'
       })
@@ -99,7 +89,6 @@ export function MapCanvas() {
         map.getCanvas().style.cursor = ''
       })
 
-      // 点击空白处取消选中
       map.on('click', e => {
         const features = map.queryRenderedFeatures(e.point, { layers: ['city-circle'] })
         if (features.length === 0) selectEntity(null, null)
@@ -114,7 +103,6 @@ export function MapCanvas() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  // ── 状态变化 → 刷新图层 + 地形模式切换 ─────────────────────────────────────
   useEffect(() => {
     const map = mapRef.current
     if (!map || !map.loaded()) return
@@ -122,7 +110,6 @@ export function MapCanvas() {
     refreshLayers(map, mapMode, currentLuYearId, selectedEntityId, selectedEntityType)
   }, [mapMode, currentLuYearId, selectedEntityId, selectedEntityType])
 
-  // ── 选中实体 → 地图飞到对应位置 ──────────────────────────────────────────
   useEffect(() => {
     const map = mapRef.current
     if (!map || !selectedEntityId) return
@@ -169,7 +156,6 @@ export function MapCanvas() {
   )
 }
 
-// ── 图层刷新（纯函数，map.on('load') 和状态变化共用）────────────────────────
 function refreshLayers(
   map: maplibregl.Map,
   mode: string,
@@ -177,7 +163,6 @@ function refreshLayers(
   selectedEntityId: string | null,
   selectedEntityType: string | null
 ) {
-  // ── 1. 所有城市点 ────────────────────────────────────────────────────────
   const cityData = buildAllPlacesGeoJSON(mode as never, luYearId)
   ensureSource(map, 'cities', cityData)
 
@@ -186,19 +171,17 @@ function refreshLayers(
     type: 'circle',
     source: 'cities',
     layout: {
-      // 值越大越靠上渲染：大城 > 小城，同类城下高爵位 > 低爵位
       'circle-sort-key': ['get', 'displayPriority'],
     },
     paint: {
       'circle-radius': ['get', 'radius'],
-      'circle-color': ['get', 'color'],    // 初始用国家色，后面按模式覆盖
+      'circle-color': ['get', 'color'],
       'circle-stroke-color': '#f5efe0',
       'circle-stroke-width': 1.5,
       'circle-opacity': 0.92,
     },
   })
 
-  // 本年城邑归属发生变化（吞占/收复/割让）的高亮环
   ensureLayer(map, {
     id: 'city-change-ring',
     type: 'circle',
@@ -225,7 +208,6 @@ function refreshLayers(
     mode === 'territory' || mode === 'chunqiu' ? 'visible' : 'none'
   )
 
-  // 分封图：爵位代表色；地形图：地形中性色；其他模式：国家颜色
   map.setPaintProperty(
     'city-circle',
     'circle-color',
@@ -236,14 +218,12 @@ function refreshLayers(
         : ['get', 'color']
   )
 
-  // 国名标签（仅都城处显示），分封图中标签颜色也切换为爵位色
   ensureLayer(map, {
     id: 'city-label',
     type: 'symbol',
     source: 'cities',
     filter: ['==', ['get', 'isCapital'], true],
     layout: {
-      // 与 city-circle 一致：高优先级标签在冲突时胜出
       'symbol-sort-key': ['get', 'displayPriority'],
       'text-field': ['get', 'stateName'],
       'text-font': ['Noto Sans CJK JP Regular', 'Open Sans Regular'],
@@ -269,7 +249,6 @@ function refreshLayers(
         : ['get', 'color']
   )
 
-  // ── 1d. 霸主都城金色双环（插在 city-circle 之下，避免遮挡城市点）──────────
   if (!map.getLayer('hegemon-ring-outer')) {
     map.addLayer(
       {
@@ -309,7 +288,6 @@ function refreshLayers(
     )
   }
 
-  // ── 2. 选中高亮环（朱砂外圈） ────────────────────────────────────────────
   const selData = buildSelectedDotGeoJSON(selectedEntityId, selectedEntityType)
   ensureSource(map, 'selected-dot', selData)
   ensureLayer(map, {
@@ -326,7 +304,6 @@ function refreshLayers(
     },
   })
 
-  // ── 3. 外交关系连线 ───────────────────────────────────────────────────────
   const showRelLines =
     mode === 'diplomacy' ||
     (Boolean(selectedEntityId) && selectedEntityType === 'state')
@@ -348,15 +325,10 @@ function refreshLayers(
   })
   map.setLayoutProperty('relation-line', 'visibility', showRelLines ? 'visible' : 'none')
 
-  // 云雾遮罩已按产品要求移除
 }
 
-/**
- * 切换地形 3D 模式：开启时激活 DEM 地形起伏 + hillshade 山体阴影，关闭时恢复平面。
- * exaggeration 设为 0.35 — 起伏可感知但不夸张，地形比例准确。
- */
 function applyTerrainMode(map: maplibregl.Map, active: boolean) {
-  if (!map.getSource('dem')) return  // DEM 未就绪（不应发生，但防御性检查）
+  if (!map.getSource('dem')) return
 
   if (active) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -372,11 +344,9 @@ function applyTerrainMode(map: maplibregl.Map, active: boolean) {
 }
 
 function applyHistoricalBasemapMask(map: maplibregl.Map) {
-  // 关闭现代道路/POI/交通标签，保留地形、水系、国土轮廓，降低“现代地图违和感”。
   const hideLayerKeywords = [
     'road', 'street', 'highway', 'motorway', 'railway', 'rail',
     'transit', 'aeroway', 'airport', 'poi', 'housenumber',
-    // 行政区划与现代聚落层（省/市/区县边界及城市点）
     'admin', 'boundary', 'province', 'district', 'county',
     'settlement', 'city', 'town', 'village',
   ]

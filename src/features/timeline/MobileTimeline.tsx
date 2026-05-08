@@ -2,11 +2,6 @@ import { useCallback, useMemo, useRef, useEffect } from 'react'
 import { ALL_LU_YEARS } from '@/data/dataService'
 import { useAppStore } from '@/store/useAppStore'
 
-/**
- * 手机端专用时间轴：
- * - 顶部徽章显示当前年份（CSS display:none 在桌面端）
- * - 右侧竖向滑轨（rotate 实现，桌面端同样隐藏）
- */
 export function MobileTimeline() {
   const currentLuYearId = useAppStore(s => s.currentLuYearId)
   const setLuYear = useAppStore(s => s.setLuYear)
@@ -28,13 +23,11 @@ export function MobileTimeline() {
   )
 
   useEffect(() => {
-    // Firefox 支持 input[orient=vertical]，通过 DOM 属性设置避免 TS JSX 类型报错
     sliderRef.current?.setAttribute('orient', 'vertical')
   }, [])
 
   return (
     <>
-      {/* 年份顶部徽章 */}
       <div className="mobile-year-badge" aria-live="polite">
         <span className="mobile-year-label">{currentYear?.luLabel ?? '—'}</span>
         <span className="mobile-year-sub">
@@ -42,7 +35,6 @@ export function MobileTimeline() {
         </span>
       </div>
 
-      {/* 右侧竖向滑轨 */}
       <div className="mobile-timeline-wrap">
         <input
           ref={sliderRef}

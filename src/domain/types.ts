@@ -1,4 +1,4 @@
-// ── 纪年 ────────────────────────────────────────────────────────────────────
+// Lu 纪年
 export interface LuYear {
   id: string
   /** 鲁国纪年，如"隐公元年" */
@@ -13,11 +13,9 @@ export interface LuYear {
   bce: number
 }
 
-// ── 来源等级 ──────────────────────────────────────────────────────────────────
 export type SourceType = 'jing' | 'zuozhuan' | 'other'
 export type Certainty = 'high' | 'medium' | 'low'
 
-// ── 地点 ──────────────────────────────────────────────────────────────────────
 export interface Place {
   id: string
   name: string
@@ -30,7 +28,6 @@ export interface Place {
   certainty: Certainty
 }
 
-// ── 国家 ──────────────────────────────────────────────────────────────────────
 export type ZhouRank = 'wang' | 'gong' | 'hou' | 'bo' | 'zi' | 'nan' | 'barbarian' | 'unknown'
 
 export interface State {
@@ -49,7 +46,6 @@ export interface State {
   certainty: Certainty
 }
 
-// ── 人物 ──────────────────────────────────────────────────────────────────────
 export type PersonRole = 'duke' | 'minister' | 'general' | 'envoy' | 'other'
 
 export interface Person {
@@ -66,7 +62,6 @@ export interface Person {
   certainty: Certainty
 }
 
-// ── 关系 ──────────────────────────────────────────────────────────────────────
 export type RelationType =
   | 'ally'      // 盟友
   | 'enemy'     // 敌对
@@ -87,7 +82,6 @@ export interface Relation {
   certainty: Certainty
 }
 
-// ── 经文事件 ──────────────────────────────────────────────────────────────────
 export type EventCategory =
   | 'battle'      // 战争
   | 'assembly'    // 会盟
@@ -115,7 +109,7 @@ export interface ChunqiuEvent {
   /** 文献出处引用 */
   sourceRef: string
   certainty: Certainty
-  /** 城邑归属变更（用于按年份回放势力动态） */
+  /** 城邑归属变更 */
   territoryChanges?: Array<{
     placeId: string
     fromStateId: string | null
@@ -124,15 +118,13 @@ export interface ChunqiuEvent {
   }>
 }
 
-// ── 地图模式 ──────────────────────────────────────────────────────────────────
 export type MapMode =
   | 'fengjian'    // 周礼分封图（爵位标注）
   | 'territory'   // 城邑总览图
   | 'diplomacy'   // 外交关系图
   | 'chunqiu'     // 春秋模式（仅有载诸侯）
-  | 'terrain'     // 地形图（DEM 高程 + 山体阴影 + 云雾遮罩）
+  | 'terrain'     // DEM + hillshade
 
-// ── 全局应用状态（由 Zustand store 持有）───────────────────────────────────────
 export interface AppState {
   currentLuYearId: string
   mapMode: MapMode

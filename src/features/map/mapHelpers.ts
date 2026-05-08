@@ -16,7 +16,7 @@ import {
 
 export const MAP_CENTER: [number, number] = [114.5, 35.5]
 export const MAP_ZOOM = 5.2
-// 汉地十八郡可视范围（MVP近似）：用于统一过滤地图显示
+// 地图裁剪范围（粗估）
 export const HAN18_BOUNDS = {
   west: 103.5,
   east: 122.8,
@@ -38,10 +38,7 @@ export const RANK_LABELS: Record<string, string> = {
   unknown: '不详',
 }
 
-/**
- * 爵位显示优先级（值越高越靠前渲染）。
- * 用于 circle-sort-key / symbol-sort-key，保证高爵位地点压在低爵位之上。
- */
+// 爵位 → sort-key 里用的权重
 export const RANK_PRIORITY: Record<string, number> = {
   wang:      7,
   gong:      6,
@@ -53,34 +50,29 @@ export const RANK_PRIORITY: Record<string, number> = {
   unknown:   0,
 }
 
-/**
- * 春秋时期历史意义上的主要诸侯（核心大国），显示优先级高于次要小国。
- * 包含周天子、春秋五霸所在国及史书大量记载的诸侯。
- */
 export const MAJOR_STATE_IDS = new Set([
-  'zhou',   // 周天子
-  'lu',     // 鲁（春秋经文视角国）
-  'qi',     // 齐
-  'jin',    // 晋
-  'chu',    // 楚
-  'qin',    // 秦
-  'wei',    // 卫
-  'zheng',  // 郑
-  'song',   // 宋
-  'yan',    // 燕
-  'wu',     // 吴
-  'yue',    // 越
+  'zhou',
+  'lu',
+  'qi',
+  'jin',
+  'chu',
+  'qin',
+  'wei',
+  'zheng',
+  'song',
+  'yan',
+  'wu',
+  'yue',
 ])
 
-/** 分封图中各爵位对应的代表色，与图例保持一致 */
 export const RANK_COLORS: Record<string, string> = {
-  wang:      '#c9a227', // 金色 — 天子
-  gong:      '#6b2d6b', // 紫色 — 公
-  hou:       '#3d6b8a', // 蓝灰 — 侯
-  bo:        '#2d6a4f', // 玉青 — 伯
-  zi:        '#1a6b8a', // 天碧 — 子
-  nan:       '#8B4513', // 赭石 — 男
-  barbarian: '#888888', // 灰   — 蛮夷
+  wang:      '#c9a227',
+  gong:      '#6b2d6b',
+  hou:       '#3d6b8a',
+  bo:        '#2d6a4f',
+  zi:        '#1a6b8a',
+  nan:       '#8B4513',
+  barbarian: '#888888',
   unknown:   '#888888',
 }
 
@@ -101,19 +93,12 @@ export const MODE_LABELS: Record<MapMode, string> = {
   terrain:    '地形图',
 }
 
-// ── 地形图辅助 ────────────────────────────────────────────────────────────────
-
-/**
- * 构造"世界矩形减去 HAN18 缓冲区"的 GeoJSON 多边形，用于云雾遮罩。
- * bufferDeg 越大，透明孔越大，实现由内向外渐变叠加的柔化边缘。
- */
+// 云雾遮罩用的环（当前未使用，保留）
 export function buildCloudRingGeoJSON(bufferDeg: number): GeoJSON.FeatureCollection {
   const b = bufferDeg
-  // 外环：覆盖全球（用大范围矩形即可）
   const world: GeoJSON.Position[] = [
     [-180, -85], [180, -85], [180, 85], [-180, 85], [-180, -85],
   ]
-  // 内环（洞）：HAN18 加缓冲，使用顺时针（GeoJSON 洞方向）
   const hole: GeoJSON.Position[] = [
     [HAN18_BOUNDS.west - b, HAN18_BOUNDS.south - b],
     [HAN18_BOUNDS.west - b, HAN18_BOUNDS.north + b],
@@ -133,13 +118,10 @@ export function buildCloudRingGeoJSON(bufferDeg: number): GeoJSON.FeatureCollect
   }
 }
 
-/** 在 map.on('load') 中调用：注册 DEM 数据源并预建 hillshade 图层（默认隐藏）。
- *  必须在 refreshLayers 之前调用，保证图层顺序正确（hillshade 位于城市点之下）。*/
 export function setupDem(map: maplibregl.Map) {
   if (!map.getSource('dem')) {
     map.addSource('dem', {
       type: 'raster-dem',
-      // Terrarium 编码高程瓦片，免费公开，适合全球中低精度地形
       tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
       tileSize: 256,
       maxzoom: 12,
@@ -147,8 +129,6 @@ export function setupDem(map: maplibregl.Map) {
   }
 
   if (!map.getLayer('hillshade')) {
-    // 找到底图中第一个含 "water" 的图层，把 hillshade 插在它之前。
-    // 这样水体（海、湖）会渲染在 hillshade 之上，海面不再出现地形阴影。
     const styleLayers = map.getStyle().layers ?? []
     const firstWaterLayerId = styleLayers.find(
       l => l.id.toLowerCase().includes('water')
@@ -168,12 +148,11 @@ export function setupDem(map: maplibregl.Map) {
           'hillshade-illumination-direction': 330,
         },
       } as maplibregl.LayerSpecification,
-      firstWaterLayerId   // beforeId：hillshade 落在水体层之下
+      firstWaterLayerId
     )
   }
 }
 
-// ── 所有城市点（替代原来的多边形领土）────────────────────────────────────────
 export function buildAllPlacesGeoJSON(
   mode: MapMode,
   luYearId: string
@@ -198,7 +177,6 @@ export function buildAllPlacesGeoJSON(
 
   const activeStateIds =
     mode === 'chunqiu' ? getActiveStateIdsForYear(luYearId) : null
-  // 春秋模式：当年事件直接引用的地点 id（用于无主国地点的保底显示）
   const activePlaceIds: Set<string> | null =
     mode === 'chunqiu'
       ? new Set(getEventsForYear(luYearId).flatMap(e => e.placeIds ?? []))
@@ -219,13 +197,9 @@ export function buildAllPlacesGeoJSON(
     const effectiveStateId = ownership?.stateId ?? place.stateId
     const state = effectiveStateId ? ALL_STATES.find(s => s.id === effectiveStateId) : null
 
-    // 仅春秋模式按“当年经文活跃态”过滤；其他模式展示全部可见地点（受汉地范围约束）。
     if (mode === 'chunqiu' && activeStateIds) {
-      // 本年经文涉及该城有效归属国
       const stateMentioned = !!(effectiveStateId && activeStateIds.has(effectiveStateId))
-      // 本年事件的 placeIds 明确列出该点
       const placeMentioned = activePlaceIds?.has(place.id) ?? false
-      // 霸主都城：即使本年经文未点名该国，仍显示以便金圈标记
       const hegemonCapitalShown =
         hegemonCapitalId != null && place.id === hegemonCapitalId
       if (!stateMentioned && !placeMentioned && !hegemonCapitalShown) continue
@@ -235,14 +209,9 @@ export function buildAllPlacesGeoJSON(
     const isHegemonCapital = Boolean(hegemonId && state?.id === hegemonId && isCapital)
 
     const rank = state?.rank ?? 'unknown'
-    // 圆点大小：天子都城 > 诸侯都城 > 普通城邑
     const radius = isCapital ? (state?.rank === 'wang' ? 10 : 7) : 4
-    // 爵位数字权重（0–7）
     const rankPriority = RANK_PRIORITY[rank] ?? 0
-    // 主要大国权重（1 = 大国，0 = 小国）
     const isMajorState = MAJOR_STATE_IDS.has(effectiveStateId ?? '') ? 1 : 0
-    // 统一排序键（三级优先：大城 > 主要国 > 高爵位）
-    // radius(4/7/10) × 100 留足两位给后两级；isMajor × 10 留足一位给 rankPriority(0–7)
     const displayPriority = radius * 100 + isMajorState * 10 + rankPriority
 
     features.push({
@@ -257,7 +226,6 @@ export function buildAllPlacesGeoJSON(
         rank,
         rankPriority,
         displayPriority,
-        // 分封图中使用爵位代表色；其他模式使用国家自身颜色
         rankColor: RANK_COLORS[rank] ?? '#888888',
         isCapital: isCapital,
         isHegemonCapital,
@@ -272,7 +240,6 @@ export function buildAllPlacesGeoJSON(
   return { type: 'FeatureCollection', features }
 }
 
-// ── 选中高亮点（当前选中的国家都城 或 地点）─────────────────────────────────
 export function buildSelectedDotGeoJSON(
   selectedEntityId: string | null,
   selectedEntityType: string | null
@@ -299,8 +266,7 @@ export function buildSelectedDotGeoJSON(
       }
     }
   } else if (selectedEntityType === 'person') {
-    // 人物 → 定位到所属国都城
-    // (passed from MapCanvas which does the person->state->capital lookup)
+    // MapCanvas 里处理人物定位
   }
 
   if (!coords) return { type: 'FeatureCollection', features: [] }
@@ -315,7 +281,6 @@ export function buildSelectedDotGeoJSON(
   }
 }
 
-// ── 外交关系连线 ──────────────────────────────────────────────────────────────
 export function buildRelationLinesGeoJSON(
   luYearId: string,
   focusStateId: string | null
@@ -374,7 +339,6 @@ export function isInHan18Approx(coords: [number, number]): boolean {
   )
 }
 
-// ── 图层注册 / 更新 helper ────────────────────────────────────────────────────
 export function ensureSource(
   map: maplibregl.Map,
   id: string,
