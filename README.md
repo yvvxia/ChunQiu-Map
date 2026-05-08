@@ -1,98 +1,33 @@
-# 春秋地图（ChunQiu-Map）
+# 春秋地图
 
-一个基于《春秋》与《左传》史料的互动历史地图应用。  
-支持按鲁国纪年浏览春秋时期国家、人物、地点与外交关系，并提供多种地图模式与移动端适配。
+鲁国纪年 + MapLibre，看国家/人物/地点/外交，数据在 `src/data`。
 
-## 项目亮点
-
-- 鲁国纪年时间轴联动地图与右侧信息面板
-- 多地图模式：分封图、势力图、外交图、春秋模式、地形图
-- 地形模式支持 DEM 起伏与山体阴影（云雾遮罩已移除）
-- 地点显示优先级：大城优先，其次主要国家优先，再次高爵位优先
-- 移动端专项适配：右侧竖向时间轴、顶部纪年徽章、底部面板导航
-- 支持部署到 Vercel，自动 HTTPS 与自动重部署
-
-## 技术栈
-
-- React 18
-- TypeScript
-- Vite 6
-- MapLibre GL JS
-- Zustand
-- Lucide React
-
-## 目录结构
-
-```text
-src/
-  app/            应用入口与主布局
-  data/           史料数据与数据服务
-  domain/         TypeScript 类型定义
-  features/
-    map/          地图渲染与图层逻辑
-    panel/        右侧信息面板（国家/人物/地点/统计）
-    timeline/     桌面与移动端时间轴
-    toolbar/      地图模式与移动端底部工具栏
-  store/          Zustand 全局状态
-  styles/         主题样式与响应式样式
-scripts/          数据校验与维护脚本
-```
-
-## 本地运行
+## 跑起来
 
 ```bash
-npm install
+npm i
 npm run dev
 ```
 
-默认访问：`http://localhost:5173`
+`http://localhost:5173`
 
-## 常用命令
+## 脚本
 
-```bash
-# 启动开发环境
-npm run dev
+| 命令 | 作用 |
+|------|------|
+| `npm run dev` | 开发 |
+| `npm run build` | 打包（Vercel 同这条） |
+| `npm run preview` | 本地看 dist |
+| `npm run validate:data` | 校验 JSON |
 
-# 数据校验
-npm run validate:data
+## 地图模式
 
-# 生产构建
-npm run build
+分封 / 势力 / 外交 / 春秋 / 地形。地形用 DEM + hillshade，底图 Carto。
 
-# 本地预览构建产物
-npm run preview
-```
+## 其它
 
-## 地图模式说明
+- 点叠在一起时排序：`radius` > 是否大国（`mapHelpers` 里硬编码列表）> 爵位。
+- 手机端布局单独 CSS，逻辑和桌面一套。
+- 部署：连 GitHub，Vercel 选 Vite，`build` → `dist`。
 
-- `分封图`：按爵位着色，强调周礼秩序
-- `诸侯势力图`：展示城邑与势力格局
-- `外交图`：展示国家间关系连线
-- `春秋模式`：聚焦当年事件涉及国家与地点
-- `地形图`：中低强度地形起伏，突出山川结构
-
-## 移动端说明
-
-- 左侧仅保留地图模式按钮（浮层式，不占主画布宽度）
-- 顶部显示当前纪年徽章
-- 右侧使用竖向时间轴
-- 底部使用面板分区导航（国家/人物/地点/统计）
-
-## 部署（Vercel）
-
-1. 将项目推送到 GitHub 仓库
-2. 在 Vercel 导入该仓库
-3. 使用默认 Vite 配置：
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-4. 部署完成后即可获得 `*.vercel.app` 公网地址
-
-## 数据与史料说明
-
-- 以《春秋》经文为主线，结合《左传》注释信息
-- 数据为教学与可视化用途，含一定史料抽象与近似地理定位
-- 建议通过 `npm run validate:data` 定期校验数据一致性
-
----
-
-如需继续扩展（例如更多年代、更多事件来源、更多地理层），建议先统一数据 schema，再扩展渲染层。
+数据是 MVP 量级，坐标是估的，别当精确考古用。
